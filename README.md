@@ -11,3 +11,4 @@ LeetCode
 |27 | [Remove Element](https://leetcode.com/problems/remove-element/submissions/) | [Python](python/array/RemoveElementSolution.py) | Easy |
 |35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) | Easy |
 |66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | Easy |
+|118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | Easy |

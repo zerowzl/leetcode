@@ -17,3 +17,8 @@ LeetCode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |206 | [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](python/linkedList/reverseLinkedList.py) | Easy |
+
+### 栈
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/) | [Java](java/src/stack/ValidParentheses.java) | Easy |

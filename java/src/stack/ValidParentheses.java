@@ -14,7 +14,7 @@ import java.util.Stack;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/valid-parentheses
  *
- * @author wangzhiliang
+ * @author Dave Wang
  */
 public class ValidParentheses {
 

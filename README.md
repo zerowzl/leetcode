@@ -21,4 +21,5 @@ LeetCode
 ### 栈
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/) | [Java](java/src/stack/ValidParentheses.java) | Easy |
+|20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](java/src/stack/ValidParentheses.java) | Easy |
+|155  | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |

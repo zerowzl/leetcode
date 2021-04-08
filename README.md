@@ -23,3 +23,8 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](java/src/stack/ValidParentheses.java) | Easy |
 |155  | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |
+
+### 树
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/) | [Java](java/src/tree/BinaryTree.java) | Medium |

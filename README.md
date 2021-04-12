@@ -12,21 +12,23 @@ LeetCode
 |27 | [Remove Element](https://leetcode.com/problems/remove-element/submissions/) | [Python](python/array/RemoveElementSolution.py) | Easy |
 |35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) | Easy |
 |66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | Easy |
-|118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | Easy |
-|169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Java](java/src/array/MajorityElementSolution.java) | Easy |
+|118| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | Easy |
+|169| [Majority Element](https://leetcode.com/problems/majority-element/) | [Java](java/src/array/MajorityElementSolution.java) | Easy |
 
 ### 链表
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|206 | [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/ReverseLinkedListSolution.java) | Easy |
+|21 | [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](java/src/linkedlist/MergeTwoSortedListsSolution.java) | Easy |
+|141| [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/LinkedListCycleSolution.java) | Easy |
+|206| [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/ReverseLinkedListSolution.java) | Easy |
 
 ### 栈
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](java/src/stack/ValidParentheses.java) | Easy |
-|155  | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |
+|155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |
 
 ### 树
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/) | [Java](java/src/tree/BinaryTree.java) | Medium |
+|102| [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/) | [Java](java/src/tree/BinaryTree.java) | Medium |

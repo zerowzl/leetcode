@@ -18,7 +18,7 @@ LeetCode
 ### 链表
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|206 | [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](python/linkedList/reverseLinkedList.py) | Easy |
+|206 | [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/ReverseLinkedListSolution.java) | Easy |
 
 ### 栈
 | # | Title | Solution | Difficulty |

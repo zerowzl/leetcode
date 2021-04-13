@@ -19,7 +19,9 @@ LeetCode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |21 | [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](java/src/linkedlist/MergeTwoSortedListsSolution.java) | Easy |
-|141| [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/LinkedListCycleSolution.java) | Easy |
+|141| [linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/LinkedListCycleSolution.java) | Easy |
+|142| [linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](java/src/linkedlist/LinkedListCycleIiSolution.java) | Medium |
+|160| [intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/linkedlist/IntersectionOfTwoLinkedListsSolution.java) | Easy |
 |206| [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/ReverseLinkedListSolution.java) | Easy |
 
 ### 栈

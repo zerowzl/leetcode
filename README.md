@@ -13,6 +13,7 @@ LeetCode
 |35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) | Easy |
 |66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | Easy |
 |118| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | Easy |
+|136| [Single Number Solution](https://leetcode.com/problems/single-number/) | [Java](java/src/array/SingleNumberSolution.java) | Easy |
 |169| [Majority Element](https://leetcode.com/problems/majority-element/) | [Java](java/src/array/MajorityElementSolution.java) | Easy |
 
 ### 链表
@@ -23,6 +24,7 @@ LeetCode
 |142| [linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](java/src/linkedlist/LinkedListCycleIiSolution.java) | Medium |
 |160| [intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/linkedlist/IntersectionOfTwoLinkedListsSolution.java) | Easy |
 |206| [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/ReverseLinkedListSolution.java) | Easy |
+|234| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Java](java/src/linkedlist/IsPalindromeSolution.java) | Easy |
 
 ### 栈
 | # | Title | Solution | Difficulty |

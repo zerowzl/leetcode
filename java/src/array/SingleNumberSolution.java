@@ -45,7 +45,7 @@ public class SingleNumberSolution {
             if (i == nums.length - 1) {
                 return nums[i];
             }
-            if (nums[i] == nums[i+1]) {
+            if (nums[i] == nums[i + 1]) {
                 i += 2;
             } else {
                 return nums[i];

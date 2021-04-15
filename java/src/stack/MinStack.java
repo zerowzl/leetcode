@@ -1,10 +1,7 @@
 package stack;
 
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Stack;
 
 /**
  * 最小栈。

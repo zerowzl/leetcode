@@ -1,5 +1,7 @@
 package stack;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -10,9 +12,6 @@ import java.util.Stack;
  *
  * 左括号必须用相同类型的右括号闭合。
  * 左括号必须以正确的顺序闭合。
- *
- * 来源：力扣（LeetCode）
- * 链接：https://leetcode-cn.com/problems/valid-parentheses
  *
  * @author Dave Wang
  */
@@ -50,6 +49,33 @@ public class ValidParentheses {
                 }
                 if (stack.pop() != '[') {
                     return false;
+                }
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    public boolean isValidV2(String s) {
+        Map<Character, Character> map = new HashMap<>(8);
+        map.put(')', '(');
+        map.put(']', '[');
+        map.put('}', '{');
+
+        Stack<Character> stack = new Stack<>();
+        char[] chars = s.toCharArray();
+        for (char aChar : chars) {
+            if (!map.containsKey(aChar)) {
+                stack.push(aChar);
+            } else {
+                if (stack.isEmpty()) {
+                    return false;
+                }
+
+                Character peek = stack.peek();
+                if (!map.get(aChar).equals(peek)) {
+                    return false;
+                } else {
+                    stack.pop();
                 }
             }
         }

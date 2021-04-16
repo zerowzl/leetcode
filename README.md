@@ -31,6 +31,7 @@ LeetCode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](java/src/stack/ValidParentheses.java) | Easy |
+|32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Java](java/src/stack/LongestValidParenthesesSolution.java) | Hard |
 |155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |
 
 ### 树

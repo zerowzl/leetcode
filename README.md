@@ -35,6 +35,11 @@ LeetCode
 |150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](java/src/stack/EvalRPNSolution.java) | Medium |
 |155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |
 
+### 队列
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|239| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](java/src/queue/MaxSlidingWindowSolution.java) | Hard |
+
 ### 树
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |

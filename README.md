@@ -32,6 +32,7 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](java/src/stack/ValidParentheses.java) | Easy |
 |32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Java](java/src/stack/LongestValidParenthesesSolution.java) | Hard |
+|150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](java/src/stack/EvalRPNSolution.java) | Medium |
 |155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |
 
 ### 树

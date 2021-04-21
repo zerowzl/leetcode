@@ -19,6 +19,7 @@ LeetCode
 ### 链表
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|2  | [AddTwoNumbers](https://leetcode.com/problems/add-two-numbers/) | [Java](java/src/linkedlist/AddTwoNumbersSolution.java) | Medium |
 |21 | [merge two sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](java/src/linkedlist/MergeTwoSortedListsSolution.java) | Easy |
 |23 | [merge k sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](java/src/linkedlist/MergeKSortedListsSolution.java) | Hard |
 |141| [linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/LinkedListCycleSolution.java) | Easy |

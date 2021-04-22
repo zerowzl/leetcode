@@ -1,47 +1,53 @@
 LeetCode
 ========
 
-## LeetCode 算法题解
+## LeetCode 题解
 
 ### 数组
-| # | Title | Solution | Difficulty |
+| # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|1  | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](python/array/twoSumSolution.py) [Java](java/src/array/TwoSumSolution.java) | Easy |
-|15 | [Three Sum](https://leetcode.com/problems/3sum/) | [Java](java/src/array/TwoSumSolution.java) | Medium |
-|26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | Easy |
-|27 | [Remove Element](https://leetcode.com/problems/remove-element/submissions/) | [Python](python/array/RemoveElementSolution.py) | Easy |
-|35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) | Easy |
-|66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | Easy |
-|118| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | Easy |
-|136| [Single Number Solution](https://leetcode.com/problems/single-number/) | [Java](java/src/array/SingleNumberSolution.java) | Easy |
-|169| [Majority Element](https://leetcode.com/problems/majority-element/) | [Java](java/src/array/MajorityElementSolution.java) | Easy |
+|1  | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](python/array/twoSumSolution.py) [Java](java/src/array/twoSum/TwoSum.java) | 简单 |
+|15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/array/threeSum/ThreeSum.java) | 中等 |
+|26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | 简单 |
+|27 | [移除元素](https://leetcode-cn.com/problems/remove-element/submissions/) | [Python](python/array/RemoveElementSolution.py) | 简单 |
+|35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) | 简单 |
+|66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
+|118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | 简单 |
+|136| [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Java](java/src/array/singleNumber/SingleNumber.java) | 简单 |
+|169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |
 
 ### 链表
-| # | Title | Solution | Difficulty |
+| # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|2  | [AddTwoNumbers](https://leetcode.com/problems/add-two-numbers/) | [Java](java/src/linkedlist/AddTwoNumbersSolution.java) | Medium |
-|21 | [merge two sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](java/src/linkedlist/MergeTwoSortedListsSolution.java) | Easy |
-|23 | [merge k sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](java/src/linkedlist/MergeKSortedListsSolution.java) | Hard |
-|141| [linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/LinkedListCycleSolution.java) | Easy |
-|142| [linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](java/src/linkedlist/LinkedListCycleIiSolution.java) | Medium |
-|160| [intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/linkedlist/IntersectionOfTwoLinkedListsSolution.java) | Easy |
-|206| [reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/ReverseLinkedListSolution.java) | Easy |
-|234| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Java](java/src/linkedlist/IsPalindromeSolution.java) | Easy |
+|2  | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](java/src/linkedlist/addTwoNumbers/AddTwoNumbers.java) | 中等 |
+|21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](java/src/linkedlist/mergeTwoSortedLists/MergeTwoSortedLists.java) | 简单 |
+|23 | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [Java](java/src/linkedlist/mergeKSortedLists/MergeKSortedLists.java) | 困难 |
+|141| [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/linkedListCycle/LinkedListCycle.java) | 简单 |
+|142| [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](java/src/linkedlist/linkedListCycleIi/LinkedListCycleIi.java) | 中等 |
+|160| [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/linkedlist/intersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java) | 简单 |
+|206| [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/reverseLinkedList/ReverseLinkedList.java) | 简单 |
+|234| [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)| [Java](java/src/linkedlist/isPalindrome/IsPalindrome.java) | 简单 |
 
 ### 栈
-| # | Title | Solution | Difficulty |
+| # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](java/src/stack/ValidParentheses.java) | Easy |
-|32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Java](java/src/stack/LongestValidParenthesesSolution.java) | Hard |
-|150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](java/src/stack/EvalRPNSolution.java) | Medium |
-|155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](java/src/stack/MinStack.java) | Easy |
+|20  | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](java/src/stack/validParentheses/ValidParentheses.java) | 简单 |
+|32  | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Java](java/src/stack/longestValidParentheses/LongestValidParentheses.java) | 困难 |
+|150 | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Java](java/src/stack/evalRPN/EvalRPN.java) | 中等 |
+|155 | [最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/stack/minStack/MinStack.java) | 简单 |
 
 ### 队列
-| # | Title | Solution | Difficulty |
+| # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|239| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](java/src/queue/MaxSlidingWindowSolution.java) | Hard |
+|239| [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](java/src/queue/maxSlidingWindow/MaxSlidingWindow.java) | 困难 |
 
 ### 树
-| # | Title | Solution | Difficulty |
+| # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|102| [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/) | [Java](java/src/tree/BinaryTree.java) | Medium |
+|102| [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java) | 中等 |
+
+### 递归
+| # | 题名 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](java/src/recursion/letterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.java) | 中等 |
+|70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](java/src/recursion/climbingStairs/ClimbingStairs.java) | 简单 |

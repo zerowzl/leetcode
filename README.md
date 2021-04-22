@@ -41,6 +41,7 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |239| [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](java/src/queue/maxSlidingWindow/MaxSlidingWindow.java) | 困难 |
+|225| [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [Java](java/src/queue/implementStackUsingQueues/MyStack.java) | 简单 |
 
 ### 树
 | # | 题名 | 题解 | 难度 |

@@ -35,6 +35,7 @@ LeetCode
 |32  | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Java](java/src/stack/longestValidParentheses/LongestValidParentheses.java) | 困难 |
 |150 | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Java](java/src/stack/evalRPN/EvalRPN.java) | 中等 |
 |155 | [最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/stack/minStack/MinStack.java) | 简单 |
+|232 | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Java](java/src/stack/implementQueueUsingStacks/MyQueue.java) | 简单 |
 
 ### 队列
 | # | 题名 | 题解 | 难度 |

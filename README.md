@@ -11,7 +11,7 @@ LeetCode
 |15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/array/threeSum/ThreeSum.java) | 中等 |
 |26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | 简单 |
 |27 | [移除元素](https://leetcode-cn.com/problems/remove-element/submissions/) | [Python](python/array/RemoveElementSolution.py) | 简单 |
-|34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)  [Java](java/src/array/findFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java) | 中等 |
+|34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](java/src/array/findFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java) | 中等 |
 |35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) | 简单 |
 |66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
 |118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | 简单 |

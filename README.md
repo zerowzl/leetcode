@@ -4,12 +4,14 @@ LeetCode
 ## LeetCode 题解
 
 ### 数组
+
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |1  | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](python/array/twoSumSolution.py) [Java](java/src/array/twoSum/TwoSum.java) | 简单 |
 |15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/array/threeSum/ThreeSum.java) | 中等 |
 |26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | 简单 |
 |27 | [移除元素](https://leetcode-cn.com/problems/remove-element/submissions/) | [Python](python/array/RemoveElementSolution.py) | 简单 |
+|34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)  [Java](java/src/array/findFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java) | 中等 |
 |35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) | 简单 |
 |66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
 |118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | 简单 |
@@ -17,6 +19,7 @@ LeetCode
 |169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |
 
 ### 链表
+
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |2  | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](java/src/linkedlist/addTwoNumbers/AddTwoNumbers.java) | 中等 |
@@ -30,6 +33,7 @@ LeetCode
 |234| [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)| [Java](java/src/linkedlist/isPalindrome/IsPalindrome.java) | 简单 |
 
 ### 栈
+
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |20  | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](java/src/stack/validParentheses/ValidParentheses.java) | 简单 |
@@ -39,17 +43,20 @@ LeetCode
 |232 | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Java](java/src/stack/implementQueueUsingStacks/MyQueue.java) | 简单 |
 
 ### 队列
+
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |239| [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](java/src/queue/maxSlidingWindow/MaxSlidingWindow.java) | 困难 |
 |225| [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [Java](java/src/queue/implementStackUsingQueues/MyStack.java) | 简单 |
 
 ### 树
+
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |102| [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java) | 中等 |
 
 ### 递归
+
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](java/src/recursion/letterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.java) | 中等 |

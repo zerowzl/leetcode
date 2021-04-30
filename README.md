@@ -55,6 +55,12 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |102| [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java) | 中等 |
 
+### 堆
+
+| # | 题名 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|215| [数组中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Java](java/src/heap/findKthLargest/FindKthLargest.java) | 中等 |
+
 ### 递归
 
 | # | 题名 | 题解 | 难度 |

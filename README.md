@@ -60,6 +60,7 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |215| [数组中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Java](java/src/heap/findKthLargest/FindKthLargest.java) | 中等 |
+|347| [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [Java](java/src/heap/topKFrequent/TopKFrequent.java) | 中等 |
 
 ### 递归
 

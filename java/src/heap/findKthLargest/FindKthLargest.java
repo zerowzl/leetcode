@@ -46,11 +46,6 @@ public class FindKthLargest {
         // 创建一个小顶堆，Java中的堆是优先队列
         Queue<Integer> head = new PriorityQueue<>(k);
         for (int num : nums) {
-            // 第一个元素直接放入堆中
-            if (head.isEmpty()) {
-                head.add(num);
-                continue;
-            }
             // 未满，直接放入
             if (head.size() < k) {
                 head.add(num);

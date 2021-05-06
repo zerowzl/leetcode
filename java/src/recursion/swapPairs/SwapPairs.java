@@ -27,7 +27,7 @@ package recursion.swapPairs;
 *******************************************************************************/
 
 /**
- * @author davewang
+ * @author Dave Wang
  */
 public class SwapPairs {
 

@@ -56,7 +56,7 @@ nums 是一个非递减数组
 *******************************************************************************/
 
 /**
- * @author davewang
+ * @author Dave Wang
  */
 public class FindFirstAndLastPositionOfElementInSortedArray {
 

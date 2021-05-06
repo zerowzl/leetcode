@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * @author davewang
+ * @author Dave Wang
  */
 public class RomanToIntegerTest {
 

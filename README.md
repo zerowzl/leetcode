@@ -8,6 +8,7 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |1  | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](python/array/twoSumSolution.py) [Java](java/src/array/twoSum/TwoSum.java) | 简单 |
+|4  | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Java](java/src/array/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java) | 困难 |
 |15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/array/threeSum/ThreeSum.java) | 中等 |
 |26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | 简单 |
 |27 | [移除元素](https://leetcode-cn.com/problems/remove-element/submissions/) | [Python](python/array/RemoveElementSolution.py) | 简单 |

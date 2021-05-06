@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 /**
- * @author davewang
+ * @author Dave Wang
  */
 public class FindFirstAndLastPositionOfElementInSortedArrayTest {
 

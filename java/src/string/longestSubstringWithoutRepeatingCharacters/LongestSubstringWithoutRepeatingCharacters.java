@@ -50,7 +50,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author davewang
+ * @author Dave Wang
  */
 public class LongestSubstringWithoutRepeatingCharacters {
 

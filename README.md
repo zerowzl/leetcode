@@ -56,14 +56,19 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |102| [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java) | 中等 |
 
+### 堆
+
+| # | 题名 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|215| [数组中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Java](java/src/heap/findKthLargest/FindKthLargest.java) | 中等 |
+|347| [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [Java](java/src/heap/topKFrequent/TopKFrequent.java) | 中等 |
+
 ### 字符串
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |3  | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Java](java/src/string/longestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java) | 中等 |
 |13 | [罗马数组转整数](https://leetcode-cn.com/problems/roman-to-integer/) | [Java](java/src/string/roman2integer/RomanToInteger.java) | 简单 |
-
-
 
 ### 递归
 

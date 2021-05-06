@@ -1,8 +1,7 @@
 package array.findFirstAndLastPositionOfElementInSortedArray;
 
 import org.junit.Test;
-
-import static org.junit.Assert.assertArrayEquals;
+import org.junit.Assert;
 
 /**
  * @author Dave Wang
@@ -12,8 +11,10 @@ public class FindFirstAndLastPositionOfElementInSortedArrayTest {
     @Test
     public void searchRange() {
         FindFirstAndLastPositionOfElementInSortedArray solution = new FindFirstAndLastPositionOfElementInSortedArray();
-        assertArrayEquals(new int[]{0, 1}, solution.searchRange(new int[]{1, 1, 9, 8}, 1));
+        Assert.assertArrayEquals(new int[]{0,0}, solution.searchRange(new int[]{1}, 1));
+        Assert.assertArrayEquals(new int[]{-1,-1}, solution.searchRange(new int[]{2}, 1));
     }
+
 
 
 }

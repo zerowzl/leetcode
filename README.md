@@ -29,6 +29,7 @@ LeetCode
 |23 | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [Java](java/src/linkedlist/mergeKSortedLists/MergeKSortedLists.java) | 困难 |
 |141| [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/linkedListCycle/LinkedListCycle.java) | 简单 |
 |142| [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](java/src/linkedlist/linkedListCycleIi/LinkedListCycleIi.java) | 中等 |
+|146| [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [Java](java/src/linkedlist/lruCache/LRUCache.java) | 中等 |
 |160| [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/linkedlist/intersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java) | 简单 |
 |206| [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/reverseLinkedList/ReverseLinkedList.java) | 简单 |
 |234| [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)| [Java](java/src/linkedlist/isPalindrome/IsPalindrome.java) | 简单 |

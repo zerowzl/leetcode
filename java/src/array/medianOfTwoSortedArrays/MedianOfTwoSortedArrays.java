@@ -49,8 +49,6 @@ nums2.length == n
 *******************************************************************************/
 
 
-import javafx.beans.binding.When;
-
 /**
  * @author Dave Wang
  */

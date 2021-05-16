@@ -50,6 +50,7 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |239| [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](java/src/queue/maxSlidingWindow/MaxSlidingWindow.java) | 困难 |
 |225| [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [Java](java/src/queue/implementStackUsingQueues/MyStack.java) | 简单 |
+|622| [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue) | [Java](java/src/queue/designCircularQueue/MyCircularQueue.java) | 中等 |
 
 ### 树
 

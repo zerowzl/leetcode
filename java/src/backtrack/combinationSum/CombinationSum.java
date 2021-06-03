@@ -68,7 +68,7 @@ public class CombinationSum {
 
     private void backtrack(int[] candidates, int target, List<List<Integer>> res, ArrayList<Integer> ans, int index) {
         if (target == 0) {
-            res.add(ans);
+            res.add(new ArrayList<>(ans));
             return;
         }
         if (target < 0) {
@@ -85,9 +85,10 @@ public class CombinationSum {
 
         // 用
         if (target - candidates[index] >= 0) {
-            ArrayList<Integer> newAns = (ArrayList<Integer>) ans.clone();
-            newAns.add(candidates[index]);
-            backtrack(candidates, target - candidates[index], res, newAns, index);
+            ans.add(candidates[index]);
+            backtrack(candidates, target - candidates[index], res, ans, index);
+            // 恢复 ans
+            ans.remove(ans.size() - 1);
         }
     }
 

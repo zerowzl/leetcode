@@ -1,4 +1,4 @@
-package array.searchInsertPosition;
+package binarySearch.searchInsertPosition;
 
 import org.junit.Test;
 

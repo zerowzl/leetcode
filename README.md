@@ -8,14 +8,10 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |1  | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](python/array/twoSumSolution.py) [Java](java/src/array/twoSum/TwoSum.java) | 简单 |
-|4  | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Java](java/src/array/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java) | 困难 |
 |11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](java/src/array/containerWithMostWater/ContainerWithMostWater.java) | 中等 |
 |15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/array/threeSum/ThreeSum.java) | 中等 |
 |26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | 简单 |
 |27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [Python](python/array/RemoveElementSolution.py) [Java](java/src/array/removeElement/RemoveElement.java)| 简单 |
-|33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | [Java](java/src/array/searchInRotatedSortedArray/SearchInRotatedSortedArray.java) | 中等 |
-|34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](java/src/array/findFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java) | 中等 |
-|35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) [Java](java/src/array/searchInsertPosition/SearchInsertPosition.java) | 简单 |
 |66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
 |118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | 简单 |
 |136| [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Java](java/src/array/singleNumber/SingleNumber.java) | 简单 |
@@ -91,3 +87,12 @@ LeetCode
 |39 | [组合之和](https://leetcode-cn.com/problems/combination-sum/) | [Java](java/src/backtrack/combinationSum/CombinationSum.java) | 中等 |
 |46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/backtrack/permute/Permute.java) | 中等 |
 |47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](java/src/backtrack/permute2/Permute2.java) | 中等 |
+
+
+### 二分查找
+| # | 题名 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|4  | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Java](java/src/binarySearch/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java) | 困难 |
+|33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | [Java](java/src/binarySearch/searchInRotatedSortedArray/SearchInRotatedSortedArray.java) | 中等 |
+|34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](java/src/binarySearch/findFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java) | 中等 |
+|35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) [Java](java/src/binarySearch/searchInsertPosition/SearchInsertPosition.java) | 简单 |

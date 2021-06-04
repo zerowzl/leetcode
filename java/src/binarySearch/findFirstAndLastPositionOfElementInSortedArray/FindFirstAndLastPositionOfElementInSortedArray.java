@@ -1,4 +1,4 @@
-package array.findFirstAndLastPositionOfElementInSortedArray;
+package binarySearch.findFirstAndLastPositionOfElementInSortedArray;
 
 /* *****************************************************************************
 

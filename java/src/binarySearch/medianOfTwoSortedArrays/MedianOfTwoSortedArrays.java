@@ -1,4 +1,4 @@
-package array.medianOfTwoSortedArrays;
+package binarySearch.medianOfTwoSortedArrays;
 
 /* *****************************************************************************
 

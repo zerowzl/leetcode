@@ -1,4 +1,4 @@
-package array.findFirstAndLastPositionOfElementInSortedArray;
+package binarySearch.findFirstAndLastPositionOfElementInSortedArray;
 
 import org.junit.Test;
 import org.junit.Assert;

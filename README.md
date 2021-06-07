@@ -77,6 +77,7 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](java/src/recursion/letterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.java) | 中等 |
 |22 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](java/src/recursion/swapPairs/SwapPairs.java) | 中等 |
+|50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | [Java](java/src/recursion/pow/PowXN.java) | 中等 |
 |70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](java/src/recursion/climbingStairs/ClimbingStairs.java) | 简单 |
 
 ### 回溯算法

@@ -86,8 +86,8 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|122| [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | [Java](java/src/greedy/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock2.java) | 简单 |
-
+|55 | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java](java/src/greedy/jumpGame/JumpGame.java) | 中等 |
+|122| [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](java/src/greedy/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock2.java) | 简单 |
 
 ### 回溯算法
 
@@ -98,8 +98,8 @@ LeetCode
 |46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/backtrack/permute/Permute.java) | 中等 |
 |47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](java/src/backtrack/permute2/Permute2.java) | 中等 |
 
-
 ### 二分查找
+
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |4  | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Java](java/src/binarySearch/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java) | 困难 |

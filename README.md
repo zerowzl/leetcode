@@ -82,6 +82,13 @@ LeetCode
 |50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | [Java](java/src/recursion/pow/PowXN.java) | 中等 |
 |70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](java/src/recursion/climbingStairs/ClimbingStairs.java) | 简单 |
 
+### 贪心算法
+
+| # | 题名 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|122| [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | [Java](java/src/greedy/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock2.java) | 简单 |
+
+
 ### 回溯算法
 
 | # | 题名 | 题解 | 难度 |

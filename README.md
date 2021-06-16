@@ -86,6 +86,7 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
+|45 | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii) | [Java](java/src/greedy/jumpGame2/JumpGameII.java) | 中等 |
 |55 | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java](java/src/greedy/jumpGame/JumpGame.java) | 中等 |
 |122| [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](java/src/greedy/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock2.java) | 简单 |
 

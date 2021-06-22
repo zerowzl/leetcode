@@ -46,7 +46,6 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|199| [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Java](java/src/tree/binaryTreeRightSideView/BinaryTreeRightSideView.java) | 中等 |
 |239| [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](java/src/queue/maxSlidingWindow/MaxSlidingWindow.java) | 困难 |
 |225| [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [Java](java/src/queue/implementStackUsingQueues/MyStack.java) | 简单 |
 |622| [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue) | [Java](java/src/queue/designCircularQueue/MyCircularQueue.java) | 中等 |
@@ -56,6 +55,7 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |102| [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java) | 中等 |
+|199| [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Java](java/src/tree/binaryTreeRightSideView/BinaryTreeRightSideView.java) | 中等 |
 
 ### 堆
 

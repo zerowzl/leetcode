@@ -28,4 +28,21 @@ public class SymmetricTreeTest {
         assertTrue(solution.isSymmetric(null));
     }
 
+    @Test
+    public void isSymmetric2Success() {
+        TreeNode root = new TreeNode(1, new TreeNode(2), new TreeNode(2));
+        assertTrue(solution.isSymmetric2(root));
+    }
+
+    @Test
+    public void isSymmetric2Fail() {
+        TreeNode root = new TreeNode(1, new TreeNode(2), null);
+        assertFalse(solution.isSymmetric2(root));
+    }
+
+    @Test
+    public void isSymmetric2Null() {
+        assertTrue(solution.isSymmetric2(null));
+    }
+
 }

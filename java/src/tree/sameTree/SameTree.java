@@ -27,7 +27,8 @@ package tree.sameTree;
 /* *****************************************************************************
 
 题解：
-深度优先算法，注意需要使用前序遍历。
+1）深度优先算法，逐个节点进行比较。
+2）深度优先算法，分别得到两棵树的遍历列表（注意需要使用前序遍历），然后比较两个列表是否相等。
 
 复杂度分析：
 时间复杂度：O(n)
@@ -45,6 +46,18 @@ import java.util.List;
 public class SameTree {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) {
+            return true;
+        } else if (p == null || q == null) {
+            return false;
+        } else if (p.val != q.val) {
+            return false;
+        } else {
+            return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        }
+    }
+
+    public boolean isSameTree2(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
         }

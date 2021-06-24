@@ -59,6 +59,7 @@ LeetCode
 |101| [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [Java](java/src/tree/symmetricTree/SymmetricTree.java) | 简单 |
 |102| [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java) | 中等 |
 |104| [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](java/src/tree/maximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.java) | 简单 |
+|111| [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Java](java/src/tree/minimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java) | 简单 |
 |199| [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Java](java/src/tree/binaryTreeRightSideView/BinaryTreeRightSideView.java) | 中等 |
 
 ### 堆

@@ -63,6 +63,7 @@ LeetCode
 |144| [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](java/src/tree/binaryTreePostorderTraversal/BinaryTreePostorderTraversal.java) | 简单 |
 |145| [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](java/src/tree/binaryTreePreorderTraversal/BinaryTreePreorderTraversal.java) | 简单 |
 |199| [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Java](java/src/tree/binaryTreeRightSideView/BinaryTreeRightSideView.java) | 中等 |
+|226| [反转二叉树](https://leetcode-cn.com/problems/invert-binary-tree) | [Java](java/src/tree/invertBinaryTree/InvertBinaryTree.java) | 简单 |
 
 ### 堆
 

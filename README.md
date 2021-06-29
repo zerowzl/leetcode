@@ -55,6 +55,7 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](java/src/tree/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java) | 简单 |
+|98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](java/src/tree/validateBinarySearchTree/ValidateBinarySearchTree.java) | 中等 |
 |100| [相同的树](https://leetcode-cn.com/problems/same-tree/) | [Java](java/src/tree/sameTree/SameTree.java) | 简单 |
 |101| [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [Java](java/src/tree/symmetricTree/SymmetricTree.java) | 简单 |
 |102| [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java) | 中等 |

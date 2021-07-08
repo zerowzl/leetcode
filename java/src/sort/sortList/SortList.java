@@ -76,7 +76,6 @@ public class SortList {
         ListNode sentry = new ListNode(0, head);
         // 子链表初始长度 1, 每次翻倍
         for (int subLength = 1; subLength < length; subLength = subLength * 2) {
-            // 找到要合并的节点 -->  合并子链表
             // prev 前置(哨兵)节点
             ListNode prev = sentry, curr = sentry.next;
             while (curr != null) {
@@ -86,21 +85,24 @@ public class SortList {
                 for (int i = 1; i < subLength && curr.next != null; i++) {
                     curr = curr.next;
                 }
+
                 // 右节点起始节点
                 ListNode head2 = curr.next;
-                // --------------- start
-                // 计算下次循环的起点
+                // 将左节点的结束节点的边界确定了下来
                 curr.next = null;
+                // 再计算右节点的结束节点的边界
                 curr = head2;
                 for (int i = 1; i < subLength && curr != null && curr.next != null; i++) {
                     curr = curr.next;
                 }
+
+                // 下次处理的起始节点
                 ListNode next = null;
                 if (curr != null) {
                     next = curr.next;
+                    // 将右节点的结束节点的边界确定了下来
                     curr.next = null;
                 }
-                // ---------------- end
 
                 // 合并
                 ListNode merged = merge(head1, head2);

@@ -1,4 +1,4 @@
-package array.maximumSubarray;
+package dp.maximumSubarray;
 
 import org.junit.Test;
 

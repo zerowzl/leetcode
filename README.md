@@ -121,6 +121,8 @@ LeetCode
 |33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | [Java](java/src/binarySearch/searchInRotatedSortedArray/SearchInRotatedSortedArray.java) | 中等 |
 |34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](java/src/binarySearch/findFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java) | 中等 |
 |35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) [Java](java/src/binarySearch/searchInsertPosition/SearchInsertPosition.java) | 简单 |
+|278| [第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Java](java/src/binarySearch/firstBadVersion/FirstBadVersion.java) | 简单 |
+|704| [二分查找](https://leetcode-cn.com/problems/binary-search/) | [Java](java/src/binarySearch/binarySearch/BinarySearch.java) | 简单 |
 
 ### 排序
 

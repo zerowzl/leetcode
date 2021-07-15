@@ -33,6 +33,9 @@ package dp.longestPalindromicSubstring;
  */
 public class LongestPalindromicSubstring {
 
+    /**
+     * 暴力
+     */
     public String longestPalindrome(String s) {
         String ans = s.substring(0, 1);
 
@@ -60,10 +63,57 @@ public class LongestPalindromicSubstring {
         return true;
     }
 
-    public static void main(String[] args) {
-        LongestPalindromicSubstring solution = new LongestPalindromicSubstring();
-        System.out.println(solution.longestPalindrome("babac"));
-        System.out.println(solution.longestPalindrome("cbbd"));
+    /**
+     * DP
+     */
+    public String longestPalindromeV2(String s) {
+        if (s.length() == 1) {
+            return s;
+        }
+
+        int begin = 0;
+        int length = 1;
+        boolean[][] value = new boolean[s.length()][s.length()];
+        char[] chars = s.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            value[i][i] = true;
+        }
+
+        // 步长递增 ADDA
+        // 1 --> [0,1] [1,2] [2,3]
+        // 2 --> [0,2] [1,3]
+        // 3 --> [0,3]
+
+        for (int L = 2; L <= chars.length; L++) {
+            for (int i = 0; i < chars.length; i++) {
+                // i 递增, j 随着 L 的增加实现步长的增加
+                int j = L + i - 1;
+
+                if (j >= chars.length) {
+                    break;
+                }
+
+                if (chars[i] != chars[j]) {
+                    value[i][j] = false;
+                } else {
+                    // 中间没有或者有一个元素, 那就是回文
+                    if (j - i < 3) {
+                        value[i][j] = true;
+                    } else {
+                        // ABBA 时, 看 BB 是不是回文
+                        value[i][j] = value[i + 1][j - 1];
+                    }
+                }
+
+                // 重置
+                if (value[i][j] && j - i + 1 > length) {
+                    begin = i;
+                    length = j - i + 1;
+                }
+            }
+        }
+
+        return s.substring(begin, begin + length);
     }
 
 }

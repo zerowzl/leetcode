@@ -61,12 +61,9 @@ public class MaximumSubarray {
         value[0][0] = nums[0];
         int max = nums[0];
         for (int i = 0; i < value.length; i++) {
-            for (int j = 1; j < value.length; j++) {
-                // i 大于 j 没有意义
-                if (i > j) {
-                    continue;
-                    // 相等就用当前元素
-                } else if (i == j) {
+            for (int j = i; j < value.length; j++) {
+                // 相等就用当前元素
+                if (i == j) {
                     value[i][j] = nums[i];
                     // j > i, 前一个序列的结果 + 当前元素
                 } else {
@@ -74,6 +71,32 @@ public class MaximumSubarray {
                 }
 
                 max = Integer.max(max, value[i][j]);
+            }
+        }
+
+        return max;
+    }
+
+
+    /**
+     * 动态规划更省内存的解法(使用一个数组)
+     */
+    public int maxSubArrayV2(int[] nums) {
+        if (nums.length == 1) {
+            return nums[0];
+        }
+
+        int max = nums[0];
+        int[] value = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i; j < nums.length; j++) {
+                if (i == j) {
+                    value[j] = nums[i];
+                } else {
+                    value[j] = value[j - 1] + nums[j];
+                }
+
+                max = Integer.max(max, value[j]);
             }
         }
 

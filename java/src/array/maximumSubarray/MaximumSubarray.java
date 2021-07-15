@@ -103,4 +103,17 @@ public class MaximumSubarray {
         return max;
     }
 
+    /**
+     * 官方题解
+     * pre = Integer.max(pre + num, num); // 前面加起来都没有当前的大, 就丢弃
+     */
+    public int maxSubArrayV3(int[] nums) {
+        int pre = 0, max = nums[0];
+        for (int num : nums) {
+            pre = Integer.max(pre + num, num);
+            max = Integer.max(max, pre);
+        }
+        return max;
+    }
+
 }

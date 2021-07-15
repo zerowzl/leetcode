@@ -113,6 +113,12 @@ LeetCode
 |46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/backtrack/permute/Permute.java) | 中等 |
 |47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](java/src/backtrack/permute2/Permute2.java) | 中等 |
 
+### 动态规划
+
+| # | 题名 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](java/src/dp/maximumSubarray/MaximumSubarray.java) | 简单 |
+
 ### 二分查找
 
 | # | 题名 | 题解 | 难度 |

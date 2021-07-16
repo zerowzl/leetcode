@@ -52,11 +52,44 @@ public class RotateArray {
         System.out.println(Arrays.toString(nums));
     }
 
+    /**
+     * 翻转数组, 数学特性
+     */
+    public void rotate2(int[] nums, int k) {
+        k &= nums.length;
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+    }
+
+    private void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
+        }
+    }
+
+
     public static void main(String[] args) {
         RotateArray rotateArray = new RotateArray();
         rotateArray.rotate(new int[]{1, 2, 3}, 1);
         rotateArray.rotate(new int[]{1, 2, 3, 4, 5, 6, 7}, 3);
         rotateArray.rotate(new int[]{-1, -100, 3, 99}, 2);
+
+        int[] nums = {1, 2, 3};
+        rotateArray.rotate2(nums, 1);
+        System.out.println(Arrays.toString(nums));
+
+        int[] nums1 = {1, 2, 3, 4, 5, 6, 7};
+        rotateArray.rotate2(nums1, 3);
+        System.out.println(Arrays.toString(nums1));
+
+        int[] nums2 = {-1, -100, 3, 99};
+        rotateArray.rotate2(nums2, 2);
+        System.out.println(Arrays.toString(nums2));
     }
 
 }

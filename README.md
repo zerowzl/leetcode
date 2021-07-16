@@ -118,6 +118,7 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](java/src/dp/maximumSubarray/MaximumSubarray.java) | 简单 |
+|322| [零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [Java](java/src/dp/coinChange/CoinChange.java) | 中等 |
 
 ### 二分查找
 

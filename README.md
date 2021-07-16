@@ -18,6 +18,7 @@ LeetCode
 |118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | 简单 |
 |136| [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Java](java/src/array/singleNumber/SingleNumber.java) | 简单 |
 |169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |
+|189| [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](java/src/array/rotateArray/RotateArray.java) | 中等 |
 |977| [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](java/src/array/squaresOfASortedArray/SquaresOfASortedArray.java) | 简单 |
 
 ### 链表

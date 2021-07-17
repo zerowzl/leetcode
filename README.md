@@ -19,6 +19,7 @@ LeetCode
 |136| [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Java](java/src/array/singleNumber/SingleNumber.java) | 简单 |
 |169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |
 |189| [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](java/src/array/rotateArray/RotateArray.java) | 中等 |
+|283| [移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Java](java/src/array/moveZeroes/MoveZeroes.java) | 简单 |
 |977| [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](java/src/array/squaresOfASortedArray/SquaresOfASortedArray.java) | 简单 |
 
 ### 链表

@@ -111,4 +111,27 @@ public class RemoveNthFromEnd {
         return res.next;
     }
 
+    public ListNode removeNthFromEndV3(ListNode head, int n) {
+        // 双指针, 初始 fast 指向第一个节点, slow 指向哨兵节点
+        // fast 先走 N 步, 然后 slow 和 fast 一起走, 直到 fast 走到尾部, 这时 slow 的 next 就是要删除的节点
+        // 原理: slow 走的步数是 L - N
+        ListNode ans = new ListNode(0, head);
+        ListNode slow = ans, fast = head;
+
+        // fast 先走 N 步
+        for (int i = 0; i < n; i++) {
+            fast = fast.next;
+        }
+
+        // fast 走到链表尾部
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+        // 删除
+        slow.next = slow.next.next;
+        return ans.next;
+    }
+
 }

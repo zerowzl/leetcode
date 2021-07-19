@@ -125,8 +125,9 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](java/src/dp/maximumSubarray/MaximumSubarray.java) | 简单 |
-|322| [零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [Java](java/src/dp/coinChange/CoinChange.java) | 中等 |
 |62 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [Java](java/src/dp/uniquePaths/UniquePaths.java) | 中等 |
+|64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](java/src/dp/minimumPathSum/MinimumPathSum.java) | 中等 |
+|322| [零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [Java](java/src/dp/coinChange/CoinChange.java) | 中等 |
 
 ### 二分查找
 

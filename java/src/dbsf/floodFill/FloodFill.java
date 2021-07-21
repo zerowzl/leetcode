@@ -40,12 +40,15 @@ sr = 1, sc = 1, newColor = 2
 
 *******************************************************************************/
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author Dave Wang
  */
 public class FloodFill {
 
-    public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
+    public int[][] floodFillDFS(int[][] image, int sr, int sc, int newColor) {
         int m = image.length;
         int n = image[0].length;
         dfs(image, m, n, sr, sc, image[sr][sc], newColor);
@@ -81,6 +84,40 @@ public class FloodFill {
         if (sc + 1 < n && image[sr][sc + 1] == oldColor) {
             dfs(image, m, n, sr, sc + 1, oldColor, newColor);
         }
+    }
+
+    public int[][] floodFillBFS(int[][] image, int sr, int sc, int newColor) {
+        int currColor = image[sr][sc];
+        if (currColor == newColor) {
+            return image;
+        }
+
+        int m = image.length;
+        int n = image[0].length;
+
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{sr, sc});
+        while (!queue.isEmpty()) {
+            int[] curr = queue.poll();
+            int i = curr[0];
+            int j = curr[1];
+            image[i][j] = newColor;
+
+            if (i - 1 >= 0 && image[i - 1][j] == currColor) {
+                queue.offer(new int[]{i - 1, j});
+            }
+            if (i + 1 < m && image[i + 1][j] == currColor) {
+                queue.offer(new int[]{i + 1, j});
+            }
+            if (j - 1 >= 0 && image[i][j - 1] == currColor) {
+                queue.offer(new int[]{i, j - 1});
+            }
+            if (j + 1 < n && image[i][j + 1] == currColor) {
+                queue.offer(new int[]{i, j + 1});
+            }
+        }
+
+        return image;
     }
 
 }

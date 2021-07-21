@@ -152,4 +152,5 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
+|695| [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [Java](java/src/dbsf/maxAreaOfIsland/MaxAreaOfIsland.java) | 中等 |
 |733| [图像渲染](https://leetcode-cn.com/problems/flood-fill/) | [Java](java/src/dbsf/floodFill/FloodFill.java) | 简单 |

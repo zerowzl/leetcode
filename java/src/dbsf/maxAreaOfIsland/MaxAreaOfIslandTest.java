@@ -36,4 +36,30 @@ public class MaxAreaOfIslandTest {
                 new int[]{0, 0, 0, 0, 0}};
         assertEquals(7, solution.maxAreaOfIslandDFS(grid));
     }
+
+    @Test
+    public void maxAreaOfIslandBFS() {
+        int[][] grid = {new int[]{0, 0, 0}};
+        assertEquals(0, solution.maxAreaOfIslandBFS(grid));
+    }
+
+    @Test
+    public void maxAreaOfIslandBFS_2() {
+        int[][] grid = {
+                new int[]{0, 0, 0},
+                new int[]{0, 1, 0},
+                new int[]{0, 0, 0}};
+        assertEquals(1, solution.maxAreaOfIslandBFS(grid));
+    }
+
+    @Test
+    public void maxAreaOfIslandBFS_3() {
+        int[][] grid = {
+                new int[]{0, 0, 0, 0, 0},
+                new int[]{0, 1, 1, 1, 0},
+                new int[]{0, 0, 0, 1, 0},
+                new int[]{0, 1, 1, 1, 0},
+                new int[]{0, 0, 0, 0, 0}};
+        assertEquals(7, solution.maxAreaOfIslandBFS(grid));
+    }
 }

@@ -41,6 +41,9 @@ package dbsf.maxAreaOfIsland;
 
 *******************************************************************************/
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author Dave Wang
  */
@@ -86,4 +89,50 @@ public class MaxAreaOfIsland {
         ans += dfs(grid, m, n, i, j + 1);
         return ans;
     }
+
+
+    public int maxAreaOfIslandBFS(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        int ans = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                ans = Math.max(ans, bfs(grid, m, n, i, j));
+            }
+        }
+
+        return ans;
+    }
+
+    private int bfs(int[][] grid, int m, int n, int i, int j) {
+        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] != 1) {
+            return 0;
+        }
+
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{i, j});
+        int ans = 0;
+        while (!queue.isEmpty()) {
+            int[] cur = queue.poll();
+            int curI = cur[0];
+            int curJ = cur[1];
+            grid[curI][curJ] = 0;
+            ans++;
+            if (curI - 1 >= 0 && grid[curI - 1][curJ] == 1) {
+                queue.offer(new int[]{curI - 1, curJ});
+            }
+            if (curI + 1 < m && grid[curI + 1][curJ] == 1) {
+                queue.offer(new int[]{curI + 1, curJ});
+            }
+            if (curJ - 1 >= 0 && grid[curI][curJ - 1] == 1) {
+                queue.offer(new int[]{curI, curJ - 1});
+            }
+            if (curJ + 1 < n && grid[curI][curJ + 1] == 1) {
+                queue.offer(new int[]{curI, curJ + 1});
+            }
+        }
+        return ans;
+    }
+
 }

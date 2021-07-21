@@ -126,6 +126,7 @@ LeetCode
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |5  | [最长回文串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](java/src/dp/longestPalindromicSubstring/LongestPalindromicSubstring.java) | 中等 |
+|42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [Java](java/src/dp/trappingRainWater/TrappingRainWater.java) | 困难 |
 |53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](java/src/dp/maximumSubarray/MaximumSubarray.java) | 简单 |
 |62 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [Java](java/src/dp/uniquePaths/UniquePaths.java) | 中等 |
 |64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](java/src/dp/minimumPathSum/MinimumPathSum.java) | 中等 |

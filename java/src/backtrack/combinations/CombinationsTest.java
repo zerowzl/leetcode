@@ -23,4 +23,10 @@ public class CombinationsTest {
         System.out.println(ans);
     }
 
+    @Test
+    public void combine_3() {
+        List<List<Integer>> ans = solution.combine(3, 3);
+        System.out.println(ans);
+    }
+
 }

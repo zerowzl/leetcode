@@ -1,4 +1,4 @@
-package dp.zeroOneMatrix;
+package dbsf.zeroOneMatrix;
 
 import org.junit.Test;
 

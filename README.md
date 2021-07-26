@@ -120,6 +120,8 @@ LeetCode
 |40 | [组合之和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Java](java/src/backtrack/combinationSum2/CombinationSum2.java) | 中等 |
 |46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/backtrack/permute/Permute.java) | 中等 |
 |47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](java/src/backtrack/permute2/Permute2.java) | 中等 |
+|77 | [组合](https://leetcode-cn.com/problems/combinations/) | [Java](java/src/backtrack/combinations/Combinations.java) | 中等 |
+|784| [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation) | [Java](java/src/backtrack/letterCasePermutation/LetterCasePermutation.java) | 中等 |
 
 ### 动态规划
 

@@ -134,6 +134,7 @@ LeetCode
 |64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](java/src/dp/minimumPathSum/MinimumPathSum.java) | 中等 |
 |64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](java/src/dp/minimumPathSum/MinimumPathSum.java) | 中等 |
 |120| [三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | [Java](java/src/dp/triangle/Triangle.java) | 中等 |
+|198| [打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/dp/houseRobber/HouseRobber.java) | 中等 |
 
 ### 二分查找
 

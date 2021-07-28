@@ -16,7 +16,6 @@ LeetCode
 |56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](java/src/array/mergeIntervals/MergeIntervals.java) | 中等 |
 |66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
 |118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | 简单 |
-|136| [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Java](java/src/array/singleNumber/SingleNumber.java) | 简单 |
 |167| [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](java/src/array/twoSumIiInputArrayIsSorted/TwoSumIiInputArrayIsSorted.java) | 简单 |
 |169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |
 |189| [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](java/src/array/rotateArray/RotateArray.java) | 中等 |
@@ -168,5 +167,7 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|191| [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/bit/numberOfOneBits/NumberOfOneBits.java) | 简单 |
-|231| [2 的幂](https://leetcode-cn.com/problems/power-of-two/) | [Java](java/src/bit/powerOfTwo/PowerOfTwo.java) | 简单 |
+|136| [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Java](java/src/bits/singleNumber/SingleNumber.java) | 简单 |
+|190| [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [Java](java/src/bits/reverseBits/ReverseBits.java) | 简单 |
+|191| [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/bits/numberOfOneBits/NumberOfOneBits.java) | 简单 |
+|231| [2 的幂](https://leetcode-cn.com/problems/power-of-two/) | [Java](java/src/bits/powerOfTwo/PowerOfTwo.java) | 简单 |

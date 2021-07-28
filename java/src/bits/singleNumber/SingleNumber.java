@@ -1,4 +1,4 @@
-package array.singleNumber;
+package bits.singleNumber;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package bit.powerOfTwo;
+package bits.powerOfTwo;
 
 import org.junit.Test;
 

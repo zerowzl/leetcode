@@ -1,4 +1,4 @@
-package bit.numberOfOneBits;
+package bits.numberOfOneBits;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -168,4 +168,5 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
+|191| [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/bit/numberOfOneBits/NumberOfOneBits.java) | 简单 |
 |231| [2 的幂](https://leetcode-cn.com/problems/power-of-two/) | [Java](java/src/bit/powerOfTwo/PowerOfTwo.java) | 简单 |

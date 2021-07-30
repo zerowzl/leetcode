@@ -15,6 +15,7 @@ LeetCode
 |31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](java/src/array/nextPermutation/NextPermutation.java) | 中等 |
 |56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](java/src/array/mergeIntervals/MergeIntervals.java) | 中等 |
 |66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
+|88 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](java/src/array/mergeSortedArray/MergeSortedArray.java) | 简单 |
 |118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) | 简单 |
 |167| [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](java/src/array/twoSumIiInputArrayIsSorted/TwoSumIiInputArrayIsSorted.java) | 简单 |
 |169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |

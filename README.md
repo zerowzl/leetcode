@@ -22,6 +22,7 @@ LeetCode
 |189| [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](java/src/array/rotateArray/RotateArray.java) | 中等 |
 |217| [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [Java](java/src/array/containsDuplicate/ContainsDuplicate.java) | 简单 |
 |283| [移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Java](java/src/array/moveZeroes/MoveZeroes.java) | 简单 |
+|350| [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Java](java/src/array/intersectionOfTwoArrays2/IntersectionOfTwoArrays2.java) | 简单 |
 |977| [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](java/src/array/squaresOfASortedArray/SquaresOfASortedArray.java) | 简单 |
 
 ### 链表

@@ -13,6 +13,7 @@ LeetCode
 |26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | 简单 |
 |27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [Python](python/array/RemoveElementSolution.py) [Java](java/src/array/removeElement/RemoveElement.java)| 简单 |
 |31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](java/src/array/nextPermutation/NextPermutation.java) | 中等 |
+|36 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [Java](java/src/array/validSudoku/ValidSudoku.java) | 中等 |
 |56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](java/src/array/mergeIntervals/MergeIntervals.java) | 中等 |
 |66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
 |73 | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [Java](java/src/array/setMatrixZeroes/SetMatrixZeroes.java) | 中等 |

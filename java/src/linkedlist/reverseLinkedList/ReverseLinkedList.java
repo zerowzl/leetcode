@@ -48,11 +48,21 @@ public class ReverseLinkedList {
         ListNode curr = head;
         while (curr != null) {
             ListNode next = curr.next;
+            // null
+            // 1 -> null
+            // 2 -> 1 -> null
+            // 3 -> 2 -> 1 > null
             curr.next = prev;
             prev = curr;
             curr = next;
         }
 
         return prev;
+    }
+
+    public static void main(String[] args) {
+        ReverseLinkedList solution = new ReverseLinkedList();
+        solution.reverseList2(new ListNode(1, new ListNode(2,
+                new ListNode(3))));
     }
 }

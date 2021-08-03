@@ -183,3 +183,4 @@ LeetCode
 |190| [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [Java](java/src/bits/reverseBits/ReverseBits.java) | 简单 |
 |191| [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/bits/numberOfOneBits/NumberOfOneBits.java) | 简单 |
 |231| [2 的幂](https://leetcode-cn.com/problems/power-of-two/) | [Java](java/src/bits/powerOfTwo/PowerOfTwo.java) | 简单 |
+|461| [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [Java](java/src/bits/hammingDistance/HammingDistance.java) | 简单 |

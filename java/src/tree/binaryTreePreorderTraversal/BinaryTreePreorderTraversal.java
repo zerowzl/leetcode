@@ -14,25 +14,19 @@ import java.util.List;
  */
 public class BinaryTreePreorderTraversal {
 
-    public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        dfs(root, res);
-        return res;
+    public List<Integer> preorderTraversalDFS(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        dfs(root, ans);
+        return ans;
     }
 
-    private void dfs(TreeNode root, List<Integer> res) {
+    private void dfs(TreeNode root, List<Integer> ans) {
         if (root == null) {
             return;
         }
 
-        res.add(root.val);
-        if (root.left != null) {
-            dfs(root.left, res);
-        }
-
-        if (root.right != null) {
-            dfs(root.right, res);
-        }
+        ans.add(root.val);
+        dfs(root.left, ans);
+        dfs(root.right, ans);
     }
-
 }

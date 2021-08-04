@@ -26,29 +26,21 @@ import java.util.List;
  */
 public class BinaryTreeInorderTraversal {
 
-    public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        inorderTraversalCore(root, res);
-        return res;
+    public List<Integer> inorderTraversalDFS(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        dfs(root, ans);
+        return ans;
     }
 
-    private void inorderTraversalCore(TreeNode root, List<Integer> res) {
+    private void dfs(TreeNode root, List<Integer> ans) {
         if (root == null) {
             return;
         }
 
-        // 左
-        if (root.left != null) {
-            inorderTraversalCore(root.left, res);
-        }
-
-        // 当前
-        res.add(root.val);
-
-        // 右
-        if (root.right != null) {
-            inorderTraversalCore(root.right, res);
-        }
+        dfs(root.left, ans);
+        ans.add(root.val);
+        dfs(root.right, ans);
     }
+
 
 }

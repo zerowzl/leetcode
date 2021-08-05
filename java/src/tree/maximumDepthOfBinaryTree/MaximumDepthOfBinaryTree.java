@@ -20,13 +20,26 @@ package tree.maximumDepthOfBinaryTree;
 
 *******************************************************************************/
 
+/* *****************************************************************************
+
+题解：
+深度优先
+
+复杂度分析：
+时间复杂度：O(high)
+空间复杂度：O(1)
+
+*******************************************************************************/
+
 /**
  * @author Dave Wang
  */
 public class MaximumDepthOfBinaryTree {
 
     public int maxDepth(TreeNode root) {
-        return root == null ? 0 : 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+        if (root == null) {
+            return 0;
+        }
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
-
 }

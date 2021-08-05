@@ -24,7 +24,11 @@ package tree.symmetricTree;
 
 *******************************************************************************/
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Objects;
+import java.util.Queue;
 
 /**
  * @author Dave Wang
@@ -96,4 +100,62 @@ public class SymmetricTree {
         return p.val == q.val && check(p.left, q.right) && check(p.right, q.left);
     }
 
+
+    public boolean isSymmetricBFS(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            List<TreeNode> list = new ArrayList<>(size);
+            for (int i = 0; i < size; i++) {
+                TreeNode treeNode = queue.poll();
+                list.add(treeNode);
+                if (treeNode != null) {
+                    queue.add(treeNode.left);
+                    queue.add(treeNode.right);
+                }
+            }
+            if (list.size() > 1) {
+                int left = 0;
+                int right = size - 1;
+                while (left < right) {
+                    TreeNode leftNode = list.get(left);
+                    TreeNode rightNode = list.get(right);
+                    if (leftNode == null && rightNode == null) {
+                        left++;
+                        right--;
+                    } else if (leftNode == null || rightNode == null) {
+                        return false;
+                    } else {
+                        if (leftNode.val != rightNode.val) {
+                            return false;
+                        } else {
+                            left++;
+                            right--;
+                        }
+                    }
+                }
+            }
+        }
+
+        return true;
+    }
+
+    public boolean isSymmetricDFS(TreeNode root) {
+        return dfs(root, root);
+    }
+
+    public boolean dfs(TreeNode left, TreeNode right) {
+        if (left == null && right == null) {
+            return true;
+        } else if (left == null || right == null) {
+            return false;
+        } else {
+            return left.val == right.val && dfs(left.left, right.right) && dfs(left.right, right.left);
+        }
+    }
 }

@@ -125,4 +125,39 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         return ans;
     }
 
+    // 超出时间
+    public int[] searchRangeBS(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return new int[]{-1, -1};
+        }
+
+        int left = 0;
+        int right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + ((right - left) / 2);
+            if (nums[mid] < target) {
+                left = mid;
+                if (left == right) {
+                    break;
+                }
+            } else if (nums[mid] > target) {
+                right = mid;
+                if (left == right) {
+                    break;
+                }
+            } else {
+                int start = mid;
+                int end = mid;
+                while (start >= 0 && nums[start] == target) {
+                    start--;
+                }
+                while (end < nums.length && nums[end] == target) {
+                    end++;
+                }
+                return new int[]{start + 1, end - 1};
+            }
+        }
+
+        return new int[]{-1, -1};
+    }
 }

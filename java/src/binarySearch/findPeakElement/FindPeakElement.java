@@ -59,4 +59,24 @@ public class FindPeakElement {
         }
         return -1;
     }
+
+    public int findPeakElementBS(int[] nums) {
+        int low = 0;
+        int height = nums.length - 1;
+
+        while (low <= height) {
+            if (low == height) {
+                return low;
+            }
+            int mid = low + ((height - low) >> 1);
+            // 峰值一定在大的那边
+            if (nums[mid] > nums[mid + 1]) {
+                height = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return -1;
+    }
 }

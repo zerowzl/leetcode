@@ -20,4 +20,14 @@ public class FindPeakElementTest {
         assertEquals(2, solution.findPeakElement(new int[]{1, 2, 3, 1}));
         assertEquals(1, solution.findPeakElement(new int[]{1, 2, 1, 3, 5, 6, 4}));
     }
+
+    @Test
+    public void findPeakElementBS() {
+        assertEquals(0, solution.findPeakElementBS(new int[]{0}));
+        assertEquals(1, solution.findPeakElementBS(new int[]{1, 2}));
+        assertEquals(1, solution.findPeakElementBS(new int[]{1, 2, 1}));
+        assertEquals(2, solution.findPeakElementBS(new int[]{1, 2, 3}));
+        assertEquals(2, solution.findPeakElementBS(new int[]{1, 2, 3, 1}));
+        assertEquals(5, solution.findPeakElementBS(new int[]{1, 2, 1, 3, 5, 6, 4}));
+    }
 }

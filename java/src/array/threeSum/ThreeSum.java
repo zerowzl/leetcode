@@ -2,12 +2,12 @@ package array.threeSum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /* *****************************************************************************
 15.三数之和
-给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重
-复的三元组。 
+给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
 注意：答案中不可以包含重复的三元组。
 
 示例 1：
@@ -43,11 +43,13 @@ import java.util.List;
  * @author Dave Wang
  */
 public class ThreeSum {
+
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) {
-            return new ArrayList<>(0);
+            return Collections.emptyList();
         }
 
+        // 先排序
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
 

@@ -37,6 +37,7 @@ LeetCode
 |19 | [删除链表的倒数第 N 个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](java/src/linkedlist/removeNthFromEnd/RemoveNthFromEnd.java) | 中等 |
 |21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](java/src/linkedlist/mergeTwoSortedLists/MergeTwoSortedLists.java) | 简单 |
 |23 | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [Java](java/src/linkedlist/mergeKSortedLists/MergeKSortedLists.java) | 困难 |
+|82 | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | [Java](java/src/linkedlist/removeDuplicatesFromSortedList2/RemoveDuplicatesFromSortedList2.java) | 中等 |
 |83 | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Java](java/src/linkedlist/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.java) | 简单 |
 |141| [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/linkedlist/linkedListCycle/LinkedListCycle.java) | 简单 |
 |142| [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](java/src/linkedlist/linkedListCycleIi/LinkedListCycleIi.java) | 中等 |

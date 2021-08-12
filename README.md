@@ -104,6 +104,7 @@ LeetCode
 |383| [赎金信](https://leetcode-cn.com/problems/ransom-note/) | [Java](java/src/string/ransomNote/RansomNote.java) | 简单 |
 |557| [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [Java](java/src/string/reverseWordsInAString3/ReverseWordsInAString3.java) | 简单 |
 |567| [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [Java](java/src/string/permutationInString/PermutationInString.java) | 中等 |
+|844| [比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | [Java](java/src/string/backspaceStringCompare/BackspaceStringCompare.java) | 简单 |
 
 ### 递归
 

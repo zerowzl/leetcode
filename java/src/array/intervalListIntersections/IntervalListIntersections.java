@@ -57,31 +57,30 @@ public class IntervalListIntersections {
 
         List<int[]> ans = new ArrayList<>();
         for (int i = 0; i < firstList.length; i++) {
-            if (i == secondList.length) {
-                break;
-            }
-
             int ai = firstList[i][0];
             int aj = firstList[i][1];
-            int bi = secondList[i][0];
-            int bj = secondList[i][1];
 
-            // 1. 包含
-            if (ai >= bi && aj <= bj) {
-                ans.add(new int[]{ai, aj});
-                continue;
-            }
-            if (bi >= ai && bj <= aj) {
-                ans.add(new int[]{bi, bj});
-                continue;
-            }
+            for (int j = 0; j < secondList.length; j++) {
+                int bi = secondList[j][0];
+                int bj = secondList[j][1];
 
-            // 2. 交叉 [1, 3] 和 [2, 4]; [2, 4] 和 [1, 3]
-            if (aj >= bi && ai <= bj) {
-                if (ai <= bi) {
-                    ans.add(new int[]{bi, aj});
-                } else {
-                    ans.add(new int[]{ai, bj});
+                // 1. 包含
+                if (ai >= bi && aj <= bj) {
+                    ans.add(new int[]{ai, aj});
+                    continue;
+                }
+                if (bi >= ai && bj <= aj) {
+                    ans.add(new int[]{bi, bj});
+                    continue;
+                }
+
+                // 2. 交叉 [1, 3] 和 [2, 4]; [2, 4] 和 [1, 3]
+                if (aj >= bi && ai <= bj) {
+                    if (ai <= bi) {
+                        ans.add(new int[]{bi, aj});
+                    } else {
+                        ans.add(new int[]{ai, bj});
+                    }
                 }
             }
         }

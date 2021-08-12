@@ -58,4 +58,12 @@ public class IntervalListIntersectionsTest {
         int[][] secondList = new int[][]{new int[]{4, 5}};
         assertArrayEquals(new int[0][0], solution.intervalIntersection(firstList, secondList));
     }
+
+    @Test
+    public void intervalIntersection7() {
+        int[][] firstList = new int[][]{new int[]{0, 2}, new int[]{5, 10}, new int[]{13, 23}, new int[]{24, 25}};
+        int[][] secondList = new int[][]{new int[]{1, 5}, new int[]{8, 12}, new int[]{15, 24}, new int[]{25, 26}};
+        assertArrayEquals(new int[][]{new int[]{1, 2}, new int[]{5, 5}, new int[]{8, 10}, new int[]{15, 23}, new int[]{24, 24}, new int[]{25, 25}},
+                solution.intervalIntersection(firstList, secondList));
+    }
 }

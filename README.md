@@ -28,6 +28,7 @@ LeetCode
 |566| [重塑矩形](https://leetcode-cn.com/problems/reshape-the-matrix/) | [Java](java/src/array/reshapeTheMatrix/ReshapeTheMatrix.java) | 简单 |
 |581| [最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) | [Java](java/src/array/shortestUnsortedContinuousSubarray/ShortestUnsortedContinuousSubarray.java) | 中等 |
 |977| [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](java/src/array/squaresOfASortedArray/SquaresOfASortedArray.java) | 简单 |
+|986| [区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/) | [Java](java/src/array/intervalListIntersections/IntervalListIntersections.java) | 中等 |
 
 ### 链表
 

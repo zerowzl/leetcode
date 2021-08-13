@@ -27,6 +27,7 @@ LeetCode
 |350| [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Java](java/src/array/intersectionOfTwoArrays2/IntersectionOfTwoArrays2.java) | 简单 |
 |566| [重塑矩形](https://leetcode-cn.com/problems/reshape-the-matrix/) | [Java](java/src/array/reshapeTheMatrix/ReshapeTheMatrix.java) | 简单 |
 |581| [最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) | [Java](java/src/array/shortestUnsortedContinuousSubarray/ShortestUnsortedContinuousSubarray.java) | 中等 |
+|713| [乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | [Java](java/src/array/subarrayProductLessThanK/SubarrayProductLessThanK.java) | 中等 |
 |977| [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](java/src/array/squaresOfASortedArray/SquaresOfASortedArray.java) | 简单 |
 |986| [区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/) | [Java](java/src/array/intervalListIntersections/IntervalListIntersections.java) | 中等 |
 

@@ -22,6 +22,7 @@ LeetCode
 |167| [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](java/src/array/twoSumIiInputArrayIsSorted/TwoSumIiInputArrayIsSorted.java) | 简单 |
 |169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |
 |189| [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](java/src/array/rotateArray/RotateArray.java) | 中等 |
+|209| [长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [Java](java/src/array/minimumSizeSubarraySum/MinimumSizeSubarraySum.java) | 中等 |
 |217| [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [Java](java/src/array/containsDuplicate/ContainsDuplicate.java) | 简单 |
 |283| [移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Java](java/src/array/moveZeroes/MoveZeroes.java) | 简单 |
 |350| [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Java](java/src/array/intersectionOfTwoArrays2/IntersectionOfTwoArrays2.java) | 简单 |

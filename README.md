@@ -180,6 +180,7 @@ LeetCode
 |116| [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [Java](java/src/dbsf/populatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNode.java) | 中等 |
 |200| [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [Java](java/src/dbsf/numberOfIslands/NumberOfIslands.java) | 中等 |
 |542| [01 矩阵](https://leetcode-cn.com/problems/01-matrix/) | [Java](java/src/dbsf/zeroOneMatrix/ZeroOneMatrix.java) | 中等 |
+|547| [省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [Java](java/src/dbsf/numberOfProvinces/NumberOfProvinces.java) | 中等 |
 |617| [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [Java](java/src/dbsf/mergeTwoBinaryTrees/MergeTwoBinaryTrees.java) | 简单 |
 |695| [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [Java](java/src/dbsf/maxAreaOfIsland/MaxAreaOfIsland.java) | 中等 |
 |733| [图像渲染](https://leetcode-cn.com/problems/flood-fill/) | [Java](java/src/dbsf/floodFill/FloodFill.java) | 简单 |

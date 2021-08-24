@@ -81,11 +81,16 @@ LeetCode
 |104| [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](java/src/tree/maximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.java) | 简单 |
 |107| [二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [Java](java/src/tree/binaryTreeLevelOrderTraversal2/BinaryTreeLevelOrderTraversal2.java) | 简单 |
 |111| [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Java](java/src/tree/minimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java) | 简单 |
+|112| [路径总和](https://leetcode-cn.com/problems/path-sum/) | [Java](java/src/tree/pathSum/Solution.java) | 简单 |
 |114| [二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | [Java](java/src/tree/flattenBinaryTreeToLinkedList/FlattenBinaryTreeToLinkedList.java) | 中等 |
-|144| [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](java/src/tree/binaryTreePostorderTraversal/BinaryTreePostorderTraversal.java) | 简单 |
-|145| [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](java/src/tree/binaryTreePreorderTraversal/BinaryTreePreorderTraversal.java) | 简单 |
-|199| [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Java](java/src/tree/binaryTreeRightSideView/BinaryTreeRightSideView.java) | 中等 |
-|226| [反转二叉树](https://leetcode-cn.com/problems/invert-binary-tree) | [Java](java/src/tree/invertBinaryTree/InvertBinaryTree.java) | 简单 |
+|144| [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](java/src/tree/binaryTreePreorderTraversal/BinaryTreePreorderTraversal.java) | 简单 |
+|145| [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](java/src/tree/binaryTreePostorderTraversal/BinaryTreePostorderTraversal.java) | 简单 |
+|199| [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | [Java](java/src/tree/binaryTreeRightSideView/BinaryTreeRightSideView.java) | 中等 |
+|226| [反转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | [Java](java/src/tree/invertBinaryTree/InvertBinaryTree.java) | 简单 |
+|235| [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Java](java/src/tree/lowestCommonAncestorOfABinarySearchTree/Solution.java) | 简单 |
+|653| [两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [Java](java/src/tree/twoSumIvInputIsABst/Solution.java) | 简单 |
+|700| [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | [Java](java/src/tree/searchInABinarySearchTree/Solution.java) | 简单 |
+|701| [二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [Java](java/src/tree/insertIntoABinarySearchTree/Solution.java) | 中等 |
 
 ### 堆
 

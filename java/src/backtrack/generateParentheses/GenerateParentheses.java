@@ -28,7 +28,8 @@ public class GenerateParentheses {
 
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
-        backtrack(res, new StringBuilder(), 0, 0, n);
+        // backtrack(res, new StringBuilder(), 0, 0, n);
+        backtrackV2(res, new StringBuilder(), 0, 0, n);
         return res;
     }
 
@@ -78,4 +79,23 @@ public class GenerateParentheses {
         }
     }
 
+
+    private void backtrackV2(List<String> res, StringBuilder ans, int open, int close, int n) {
+        if (close == n) {
+            res.add(ans.toString());
+            return;
+        }
+
+        if (open < n) {
+            ans.append("(");
+            backtrackV2(res, ans, open + 1, close, n);
+            ans.deleteCharAt(ans.length() - 1);
+        }
+
+        if (open > close) {
+            ans.append(")");
+            backtrackV2(res, ans, open, close + 1, n);
+            ans.deleteCharAt(ans.length() - 1);
+        }
+    }
 }

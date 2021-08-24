@@ -51,24 +51,25 @@ digits[i] 是范围 ['2', '9'] 的一个数字。
  */
 public class LetterCombinationsOfAPhoneNumber {
 
+    private final Map<Character, String> phoneMap = new HashMap<Character, String>() {{
+        put('2', "abc");
+        put('3', "def");
+        put('4', "ghi");
+        put('5', "jkl");
+        put('6', "mno");
+        put('7', "pqrs");
+        put('8', "tuv");
+        put('9', "wxyz");
+    }};
+
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
         if (digits.length() == 0) {
             return res;
         }
 
-        Map<Character, String> phoneMap = new HashMap<Character, String>() {{
-            put('2', "abc");
-            put('3', "def");
-            put('4', "ghi");
-            put('5', "jkl");
-            put('6', "mno");
-            put('7', "pqrs");
-            put('8', "tuv");
-            put('9', "wxyz");
-        }};
-
-        backtrack(res, phoneMap, digits, 0, new StringBuilder());
+        // backtrack(res, phoneMap, digits, 0, new StringBuilder());
+        backtrackV2(res, phoneMap, digits, 0, new StringBuilder());
         return res;
     }
 
@@ -87,4 +88,19 @@ public class LetterCombinationsOfAPhoneNumber {
         }
     }
 
+    private void backtrackV2(List<String> res, Map<Character, String> phoneMap,
+                             String digits, int index, StringBuilder ans) {
+        if (index == digits.length()) {
+            res.add(ans.toString());
+            return;
+        }
+
+        String currDigits = phoneMap.get(digits.charAt(index));
+        char[] letters = currDigits.toCharArray();
+        for (char aChar : letters) {
+            ans.append(aChar);
+            backtrackV2(res, phoneMap, digits, index + 1, ans);
+            ans.deleteCharAt(ans.length() - 1);
+        }
+    }
 }

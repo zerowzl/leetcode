@@ -13,5 +13,6 @@ public class LetterCombinationsOfAPhoneNumberTest {
     public void letterCombinations() {
         LetterCombinationsOfAPhoneNumber solution = new LetterCombinationsOfAPhoneNumber();
         System.out.println(solution.letterCombinations("23"));
+        System.out.println(solution.letterCombinations("234"));
     }
 }

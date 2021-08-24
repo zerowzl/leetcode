@@ -48,7 +48,6 @@ public class CombinationSum2 {
         return res;
     }
 
-
     private void backtrack(List<List<Integer>> res, List<Integer> ans, int[] candidates, int target, int index, int currSum) {
         if (currSum == target) {
             res.add(new ArrayList<>(ans));
@@ -63,12 +62,14 @@ public class CombinationSum2 {
             System.out.println("index: " + index);
             System.out.println("i: " + i);
             System.out.println("currSum: " + currSum);
+            // 关键是这句，如果处于同一层的当前元素和前一个元素一样就跳过
             if (i > index && candidates[i] == candidates[i - 1]) {
                 System.out.println("==============跳过===============\n");
                 continue;
             }
             System.out.println("=============================\n");
             int sum = candidates[i] + currSum;
+            // 只处理小于等于的，因为已经排好序了，大于了后面也没必要看了
             if (sum <= target) {
                 ans.add(candidates[i]);
                 backtrack(res, ans, candidates, target, i + 1, sum);

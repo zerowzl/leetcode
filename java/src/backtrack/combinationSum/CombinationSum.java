@@ -52,6 +52,7 @@ candidate 中的每个元素都是独一无二的。
 *******************************************************************************/
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -62,11 +63,11 @@ public class CombinationSum {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
-        backtrack(candidates, target, res, new ArrayList<>(), 0);
+        backtrackV2(candidates, target, res, new LinkedList<>(), 0);
         return res;
     }
 
-    private void backtrack(int[] candidates, int target, List<List<Integer>> res, ArrayList<Integer> ans, int index) {
+    private void backtrack(int[] candidates, int target, List<List<Integer>> res, List<Integer> ans, int index) {
         if (target == 0) {
             res.add(new ArrayList<>(ans));
             return;
@@ -92,4 +93,25 @@ public class CombinationSum {
         }
     }
 
+
+    private void backtrackV2(int[] candidates, int target, List<List<Integer>> res, List<Integer> ans, int index) {
+        if (target == 0) {
+            res.add(new ArrayList<>(ans));
+            return;
+        }
+        if (target < 0) {
+            return;
+        }
+        if (index >= candidates.length) {
+            return;
+        }
+
+        // 用
+        ans.add(candidates[index]);
+        backtrackV2(candidates, target - candidates[index], res, ans, index);
+        ans.remove(ans.size() - 1);
+
+        // 不用
+        backtrackV2(candidates, target, res, ans, index + 1);
+    }
 }

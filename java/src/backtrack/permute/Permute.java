@@ -40,6 +40,8 @@ nums 中的所有整数 互不相同
 
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -94,6 +96,50 @@ public class Permute {
         }
     }
 
+
+    public List<List<Integer>> permuteV2(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return Collections.emptyList();
+        }
+
+        // ans
+        List<List<Integer>> ans = new ArrayList<>();
+        // 可用
+        List<Integer> usable = new LinkedList<>();
+        for (int num : nums) {
+            usable.add(num);
+        }
+
+        backtrackV2(usable, new LinkedList<>(), ans);
+        return ans;
+    }
+
+    private void backtrackV2(List<Integer> usable,
+                             List<Integer> list,
+                             List<List<Integer>> ans) {
+        if (usable.isEmpty()) {
+            ans.add(new ArrayList<>(list));
+            return;
+        }
+
+        for (int i = 0; i < usable.size(); i++) {
+            // 用
+            list.add(usable.get(i));
+
+            // 构建新可用列表（不包括当前元素）
+            List<Integer> newUsable = new LinkedList<>();
+            for (int j = 0; j < usable.size(); j++) {
+                if (j == i) {
+                    continue;
+                }
+                newUsable.add(usable.get(j));
+            }
+            // 回溯处理剩余元素
+            backtrackV2(newUsable, list, ans);
+            // 恢复现场
+            list.remove(list.size() - 1);
+        }
+    }
 
 }
 

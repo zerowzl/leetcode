@@ -143,6 +143,7 @@ LeetCode
 |47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](java/src/backtrack/permute2/Permute2.java) | 中等 |
 |77 | [组合](https://leetcode-cn.com/problems/combinations/) | [Java](java/src/backtrack/combinations/Combinations.java) | 中等 |
 |78 | [子集](https://leetcode-cn.com/problems/subsets/) | [Java](java/src/backtrack/subsets/Subsets.java) | 中等 |
+|79 | [单词搜索](https://leetcode-cn.com/problems/word-search/) | [Java](java/src/backtrack/wordSearch/Solution.java) | 中等 |
 |90 | [子集 II](https://leetcode-cn.com/problems/subsets-ii/) | [Java](java/src/backtrack/subsets2/Subsets2.java) | 中等 |
 |784| [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation) | [Java](java/src/backtrack/letterCasePermutation/LetterCasePermutation.java) | 中等 |
 

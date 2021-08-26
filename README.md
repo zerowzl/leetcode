@@ -162,6 +162,7 @@ LeetCode
 |198| [打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/dp/houseRobber/HouseRobber.java) | 中等 |
 |213| [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [Java](java/src/dp/houseRobberII/Solution.java) | 中等 |
 |322| [零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [Java](java/src/dp/coinChange/CoinChange.java) | 中等 |
+|413| [等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/) | [Java](java/src/dp/arithmeticSlices/Solution.java) | 中等 |
 
 ### 二分查找
 

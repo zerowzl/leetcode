@@ -1,4 +1,4 @@
-package array.pascalsTriangle;
+package dp.pascalsTriangle;
 
 /* *****************************************************************************
 

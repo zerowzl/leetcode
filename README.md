@@ -7,18 +7,17 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|1  | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](python/array/twoSumSolution.py) [Java](java/src/array/twoSum/TwoSum.java) | 简单 |
+|1  | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [Python](python/array/1_twoSum/twoSum.py) [Java](java/src/array/twoSum/TwoSum.java) | 简单 |
 |11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](java/src/array/containerWithMostWater/ContainerWithMostWater.java) | 中等 |
 |15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/array/threeSum/ThreeSum.java) | 中等 |
-|26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/RemoveDuplicatesSolution.py) | 简单 |
-|27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [Python](python/array/RemoveElementSolution.py) [Java](java/src/array/removeElement/RemoveElement.java)| 简单 |
+|26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/26_removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.py) | 简单 |
+|27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [Python](python/array/27_removeElement/RemoveElementSolution.py) [Java](java/src/array/removeElement/RemoveElement.java)| 简单 |
 |31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](java/src/array/nextPermutation/NextPermutation.java) | 中等 |
 |36 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [Java](java/src/array/validSudoku/ValidSudoku.java) | 中等 |
 |56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](java/src/array/mergeIntervals/MergeIntervals.java) | 中等 |
-|66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/PlusOneSolution.py) | 简单 |
+|66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Python](python/array/66_plusOne/plusOne.py) | 简单 |
 |73 | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [Java](java/src/array/setMatrixZeroes/SetMatrixZeroes.java) | 中等 |
 |88 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](java/src/array/mergeSortedArray/MergeSortedArray.java) | 简单 |
-|118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/array/PascalsTriangle.py) [Java](java/src/array/pascalsTriangle/PascalsTriangle.java) | 简单 |
 |167| [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](java/src/array/twoSumIiInputArrayIsSorted/TwoSumIiInputArrayIsSorted.java) | 简单 |
 |169| [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/array/majorityElement/MajorityElement.java) | 简单 |
 |189| [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](java/src/array/rotateArray/RotateArray.java) | 中等 |
@@ -47,7 +46,7 @@ LeetCode
 |146| [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [Java](java/src/linkedlist/lruCache/LRUCache.java) | 中等 |
 |160| [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/linkedlist/intersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java) | 简单 |
 |203| [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [Java](java/src/linkedlist/removeLinkedListElements/RemoveLinkedListElements.java) | 简单 |
-|206| [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [Python](python/linkedList/reverseLinkedList.py) [Java](java/src/linkedlist/reverseLinkedList/ReverseLinkedList.java) | 简单 |
+|206| [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [Java](java/src/linkedlist/reverseLinkedList/ReverseLinkedList.java) | 简单 |
 |234| [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)| [Java](java/src/linkedlist/isPalindrome/IsPalindrome.java) | 简单 |
 |876| [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)| [Java](java/src/linkedlist/middleOfTheLinkedList/MiddleOfTheLinkedList.java) | 简单 |
 
@@ -157,6 +156,7 @@ LeetCode
 |53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](java/src/dp/maximumSubarray/MaximumSubarray.java) | 简单 |
 |62 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [Java](java/src/dp/uniquePaths/UniquePaths.java) | 中等 |
 |64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](java/src/dp/minimumPathSum/MinimumPathSum.java) | 中等 |
+|118| [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](python/dp/118_pascalsTriangle/pascalsTriangle.py) [Java](java/src/dp/pascalsTriangle/PascalsTriangle.java) | 简单 |
 |120| [三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | [Java](java/src/dp/triangle/Triangle.java) | 中等 |
 |121| [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](java/src/dp/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java) | 简单 |
 |139| [单词拆分](https://leetcode-cn.com/problems/word-break/) | [Java](java/src/dp/wordBreak/Solution.java) | 中等 |
@@ -173,7 +173,7 @@ LeetCode
 |4  | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Java](java/src/binarySearch/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java) | 困难 |
 |33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | [Java](java/src/binarySearch/searchInRotatedSortedArray/SearchInRotatedSortedArray.java) | 中等 |
 |34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](java/src/binarySearch/findFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java) | 中等 |
-|35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/array/SearchInsertPositionSolution.py) [Java](java/src/binarySearch/searchInsertPosition/SearchInsertPosition.java) | 简单 |
+|35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Python](python/binarySearch/35_searchInsertPosition/searchInsertPosition.py) [Java](java/src/binarySearch/searchInsertPosition/SearchInsertPosition.java) | 简单 |
 |74 | [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Java](java/src/binarySearch/searchA2dMatrix/SearchA2dMatrix.java) | 中等 |
 |153| [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [Java](java/src/binarySearch/findMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.java) | 中等 |
 |162| [寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | [Java](java/src/binarySearch/findPeakElement/FindPeakElement.java) | 中等 |

@@ -1,8 +1,6 @@
-package array.pascalsTriangle;
+package dp.pascalsTriangle;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * @author Dave Wang

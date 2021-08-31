@@ -27,7 +27,6 @@
 进阶：你可以想出一个时间复杂度小于 O(n²) 的算法吗？
 
 """
-import unittest
 from typing import List
 
 
@@ -48,17 +47,3 @@ class Solution:
                 res[nums[i]] = i
             else:
                 return [i, res[need]]
-
-
-class TwoSumTest(unittest.TestCase):
-
-    def setUp(self):
-        self.solution = Solution()
-
-    def test_something(self):
-        ans = self.solution.twoSum([2, 7, 11, 15], 9)
-        self.assertEqual(ans, [1, 0])
-
-
-if __name__ == '__main__':
-    unittest.main()

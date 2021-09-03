@@ -118,7 +118,6 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
-|17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](java/src/recursion/letterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.java) | 中等 |
 |24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](java/src/recursion/swapPairs/SwapPairs.java) | 中等 |
 |50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | [Java](java/src/recursion/pow/PowXN.java) | 中等 |
 |70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](java/src/recursion/climbingStairs/ClimbingStairs.java) | 简单 |
@@ -135,6 +134,7 @@ LeetCode
 
 | # | 题名 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
+|17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](java/src/recursion/letterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.java) [Python](python/backtrack/17_letterCombinationsOfAPhoneNumber/letterCombinationsOfAPhoneNumber.py) | 中等 |
 |22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](java/src/backtrack/generateParentheses/GenerateParentheses.java) | 中等 |
 |39 | [组合之和](https://leetcode-cn.com/problems/combination-sum/) | [Java](java/src/backtrack/combinationSum/CombinationSum.java) | 中等 |
 |40 | [组合之和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Java](java/src/backtrack/combinationSum2/CombinationSum2.java) | 中等 |

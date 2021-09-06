@@ -1,4 +1,4 @@
 .idea
 *.class
 out
-*._trial_temp/
+python/**/_trial_temp/

@@ -138,7 +138,7 @@ LeetCode
 |22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](java/src/backtrack/generateParentheses/GenerateParentheses.java) [Python](python/backtrack/22_generateParentheses/generateParentheses.py) | 中等 |
 |39 | [组合之和](https://leetcode-cn.com/problems/combination-sum/) | [Java](java/src/backtrack/combinationSum/CombinationSum.java) [Python](python/backtrack/39_combinationSum/combinationSum.py)| 中等 |
 |40 | [组合之和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Java](java/src/backtrack/combinationSum2/CombinationSum2.java) [Python](python/backtrack/40_combinationSumII/combinationSumII.py) | 中等 |
-|46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/backtrack/permute/Permute.java) | 中等 |
+|46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/backtrack/permute/Permute.java) [Python](python/backtrack/46_permutations/permutations.py) | 中等 |
 |47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](java/src/backtrack/permute2/Permute2.java) | 中等 |
 |77 | [组合](https://leetcode-cn.com/problems/combinations/) | [Java](java/src/backtrack/combinations/Combinations.java) | 中等 |
 |78 | [子集](https://leetcode-cn.com/problems/subsets/) | [Java](java/src/backtrack/subsets/Subsets.java) | 中等 |

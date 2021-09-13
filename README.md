@@ -11,7 +11,7 @@ LeetCode
 |11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](java/src/array/containerWithMostWater/ContainerWithMostWater.java) | 中等 |
 |15 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/array/threeSum/ThreeSum.java) | 中等 |
 |26 | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](python/array/26_removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.py) | 简单 |
-|27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [Python](python/array/27_removeElement/RemoveElementSolution.py) [Java](java/src/array/removeElement/RemoveElement.java)| 简单 |
+|27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [Python](python/array/27_removeElement/removeElementSolution.py) [Java](java/src/array/removeElement/RemoveElement.java)| 简单 |
 |31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](java/src/array/nextPermutation/NextPermutation.java) | 中等 |
 |36 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [Java](java/src/array/validSudoku/ValidSudoku.java) | 中等 |
 |56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](java/src/array/mergeIntervals/MergeIntervals.java) | 中等 |
@@ -140,7 +140,8 @@ LeetCode
 |40 | [组合之和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Java](java/src/backtrack/combinationSum2/CombinationSum2.java) [Python](python/backtrack/40_combinationSumII/combinationSumII.py) | 中等 |
 |46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/backtrack/permute/Permute.java) [Python](python/backtrack/46_permutations/permutations.py) | 中等 |
 |47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](java/src/backtrack/permute2/Permute2.java) [Python](python/backtrack/47_permutationsII/permutationsII.py)| 中等 |
-|51 | [N 皇后](https://leetcode-cn.com/problems/n-nueens/) | [Python](python/backtrack/51_nQueens/nQueens.py)| 困难 |
+|51 | [N 皇后](https://leetcode-cn.com/problems/n-nueens/) | [Python](python/backtrack/51_nQueens/nQueens.py)| 中等 |
+|52 | [N 皇后 II](https://leetcode-cn.com/problems/n-nueens-ii/) | [Python](python/backtrack/52_nQueensII/nQueensII.py)| 困难 |
 |77 | [组合](https://leetcode-cn.com/problems/combinations/) | [Java](java/src/backtrack/combinations/Combinations.java) | 中等 |
 |78 | [子集](https://leetcode-cn.com/problems/subsets/) | [Java](java/src/backtrack/subsets/Subsets.java) | 中等 |
 |79 | [单词搜索](https://leetcode-cn.com/problems/word-search/) | [Java](java/src/backtrack/wordSearch/Solution.java) | 中等 |

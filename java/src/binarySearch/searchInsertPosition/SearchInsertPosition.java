@@ -43,37 +43,21 @@ package binarySearch.searchInsertPosition;
 public class SearchInsertPosition {
 
     public int searchInsert(int[] nums, int target) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-
-        if (nums.length == 1) {
-            return nums[0] < target ? 1 : 0;
-        }
-
-        int low = 0, high = nums.length - 1;
+        int low = 0;
+        int high = nums.length - 1;
+        int ans = nums.length;
 
         while (low <= high) {
-            int mid = low + (high - low) / 2;
-            // 找到了就返回
-            if (nums[mid] == target) {
-                return mid;
-                // 小于就继续查右半区
-            } else if (nums[mid] < target) {
-                low = mid + 1;
+            int mid = low + ((high - low) >> 1);
+            if (nums[mid] >= target) {
+                high = mid - 1;
+                ans = mid;
             } else {
-                // 大于，如果已经是第一个元素了 或者 前一个元素比 target 要小，就没必要找了
-                if (mid == 0 || nums[mid - 1] < target) {
-                    return mid;
-                } else {
-                    // 否则继续在左半区查找
-                    high = mid - 1;
-                }
+                low = mid + 1;
             }
         }
 
-        // 如果没找到，说明 target 大于元素中最大的数
-        return nums.length;
+        return ans;
     }
 
 }

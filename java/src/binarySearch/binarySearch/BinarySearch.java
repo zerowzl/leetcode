@@ -12,6 +12,9 @@ package binarySearch.binarySearch;
 public class BinarySearch {
 
     public int search(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
         if (nums.length == 1) {
             return nums[0] == target ? 0 : -1;
         }

@@ -37,85 +37,56 @@ nums 已按 非递减顺序 排序
 
 *******************************************************************************/
 
-import java.util.Arrays;
-
 /**
  * @author Dave Wang
  */
 public class SquaresOfASortedArray {
 
     public int[] sortedSquares(int[] nums) {
-        if (nums.length == 1) {
-            return new int[]{nums[0] * nums[0]};
-        }
-
-        // low --> 负数, high --> 正数
-        int low = -1;
-        int high = -1;
+        int min = -1;
+        int max = -1;
         for (int i = 0; i < nums.length; i++) {
-            // 找到第一个正数就结束了
             if (nums[i] >= 0) {
-                high = i;
+                min = i;
+                max = min - 1;
                 break;
             } else {
-                // 负数需要继续找
-                // 已经是最后了, 就没必要继续了
                 if (i == nums.length - 1) {
-                    low = i;
-                } else {
-                    // 看一下后面一个是不是正数, 如果是, 当前就是最后一个负数
-                    if (nums[i + 1] >= 0) {
-                        low = i;
-                    }
+                    max = i;
+                    break;
                 }
             }
         }
 
         int[] ans = new int[nums.length];
         int i = 0;
-        while ((low >= 0) && (high >= 0 && high < nums.length)) {
-            int lowValue = nums[low];
-            int highValue = nums[high];
-            if (lowValue * lowValue < highValue * highValue) {
-                ans[i] = lowValue * lowValue;
-                low--;
+        while (max > -1 && (min > -1 && min < nums.length)) {
+            int maxValue = nums[max] * nums[max];
+            int minValue = nums[min] * nums[min];
+            if (maxValue < minValue) {
+                ans[i] = maxValue;
+                max--;
             } else {
-                ans[i] = highValue * highValue;
-                high++;
+                ans[i] = minValue;
+                min++;
             }
             i++;
         }
 
-        // 看看 low 和 high 谁还有剩
-        if (low >= 0) {
-            while (low >= 0) {
-                int value = nums[low];
-                ans[i] = value * value;
-                i++;
-                low--;
-            }
+        while (max > -1) {
+            int maxValue = nums[max] * nums[max];
+            ans[i] = maxValue;
+            max--;
+            i++;
         }
 
-        if (high >= 0 && high < nums.length) {
-            while (high < nums.length) {
-                int value = nums[high];
-                ans[i] = value * value;
-                i++;
-                high++;
-            }
+        while (min > -1 && min < nums.length) {
+            int minValue = nums[min] * nums[min];
+            ans[i] = minValue;
+            min++;
+            i++;
         }
-
         return ans;
-    }
-
-    public static void main(String[] args) {
-
-
-
-
-
-
-
     }
 
 }

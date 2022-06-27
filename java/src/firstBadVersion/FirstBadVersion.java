@@ -1,4 +1,4 @@
-package binarysearch.firstBadVersion;
+package firstBadVersion;
 
 /**
  * <a href="https://leetcode.cn/problems/first-bad-version/">第一个错误版本</a>

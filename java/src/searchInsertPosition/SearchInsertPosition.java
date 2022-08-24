@@ -1,4 +1,4 @@
-package binarysearch.searchInsertPosition;
+package searchInsertPosition;
 
 /**
  * <a href="https://leetcode.cn/problems/search-insert-position/">搜索插入位置</a>

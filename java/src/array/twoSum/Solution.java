@@ -1,4 +1,4 @@
-package twoSum;
+package array.twoSum;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
  *
  * @author Dave Wang
  */
-public class TwoSum {
+class Solution {
 
     /**
      * 解题思路：题目要求和为 target，那么就需要对两个数进行求和再比较。最符合直觉的方式是双层循环，但复杂度比较高。

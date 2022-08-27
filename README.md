@@ -14,3 +14,4 @@ LeetCode
 | 86  | [分隔链表](https://leetcode.cn/problems/partition-list/)                             | [Java](java/src/linkedlist/partitionList/Solution.java)                      | 中等  |
 | 278 | [第一个错误的版本](https://leetcode.cn/problems/first-bad-version/)                      | [Java](java/src/binarysearch/firstBadVersion/FirstBadVersion.java)           | 简单  |
 | 283 | [移动零](https://leetcode.cn/problems/move-zeroes/)                                 | [Java](java/src/array/moveZeroes/Solution.java)                              | 简单  |
+| 303 | [区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/)         | [Java](java/src/array/rangeSumQueryImmutable/NumArray.java)                  | 简单  |

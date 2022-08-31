@@ -13,6 +13,7 @@ LeetCode
 | 35   | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/)                                                 | [Java](java/src/binarysearch/searchInsertPosition/SearchInsertPosition.java)               | 简单  |
 | 48   | [旋转图像](https://leetcode.cn/problems/rotate-image/)                                                             | [Java](java/src/array/rotateImage/Solution.java)                                           | 中等  |
 | 54   | [螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)                                                            | [Java](java/src/array/spiralMatrix/Solution.java)                                          | 中等  |
+| 76   | [最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)                                               | [Java](java/src/slidingwindow/minimumWindowSubstring/Solution.java)                        | 困难  |
 | 83   | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)                               | [Java](java/src/linkedlist/removeDuplicatesFromSortedList/Solution.java)                   | 简单  |
 | 86   | [分隔链表](https://leetcode.cn/problems/partition-list/)                                                           | [Java](java/src/linkedlist/partitionList/Solution.java)                                    | 中等  |
 | 278  | [第一个错误的版本](https://leetcode.cn/problems/first-bad-version/)                                                    | [Java](java/src/binarysearch/firstBadVersion/FirstBadVersion.java)                         | 简单  |

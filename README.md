@@ -18,6 +18,7 @@ LeetCode
 | 83   | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)                               | [Java](java/src/linkedlist/removeDuplicatesFromSortedList/Solution.java)                   | 简单  |
 | 86   | [分隔链表](https://leetcode.cn/problems/partition-list/)                                                           | [Java](java/src/linkedlist/partitionList/Solution.java)                                    | 中等  |
 | 92   | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)                                                | [Java](java/src/linkedlist/reverseLinkedList2/Solution.java)                               | 困难  |
+| 146  | [LRU 缓存](https://leetcode.cn/problems/lru-cache/)                                                              | [Java](java/src/linkedlist/lruCache/LRUCache.java)                                         | 	中等 |
 | 206  | [反转链表](https://leetcode.cn/problems/reverse-linked-list/)                                                      | [Java](java/src/linkedlist/reverseLinkedList/Solution.java)                                | 中等  |
 | 278  | [第一个错误的版本](https://leetcode.cn/problems/first-bad-version/)                                                    | [Java](java/src/binarysearch/firstBadVersion/FirstBadVersion.java)                         | 简单  |
 | 283  | [移动零](https://leetcode.cn/problems/move-zeroes/)                                                               | [Java](java/src/array/moveZeroes/Solution.java)                                            | 简单  |

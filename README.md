@@ -23,6 +23,7 @@ LeetCode
 | 278  | [第一个错误的版本](https://leetcode.cn/problems/first-bad-version/)                                                    | [Java](java/src/binarysearch/firstBadVersion/FirstBadVersion.java)                         | 简单  |
 | 283  | [移动零](https://leetcode.cn/problems/move-zeroes/)                                                               | [Java](java/src/array/moveZeroes/Solution.java)                                            | 简单  |
 | 303  | [区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/)                                       | [Java](java/src/array/rangeSumQueryImmutable/NumArray.java)                                | 简单  |
+| 380  | [O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)                                | [Java](java/src/array/insertDeleteGetrandomO1/RandomizedSet.java)                          | 中等  |
 | 438  | [找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)                                   | [Java](java/src/slidingwindow/findAllAnagramsInAString/Solution.java)                      | 中等  |
 | 567  | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/)                                                  | [Java](java/src/slidingwindow/permutationInString/Solution.java)                           | 中等  |
 | 704  | [二分查找](https://leetcode.cn/problems/binary-search/)                                                            | [Java](java/src/binarysearch/binarySearch/Solution.java)                                   | 简单  |

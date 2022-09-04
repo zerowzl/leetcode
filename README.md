@@ -18,6 +18,8 @@ LeetCode
 | 83   | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)                               | [Java](java/src/linkedlist/removeDuplicatesFromSortedList/Solution.java)                   | 简单  |
 | 86   | [分隔链表](https://leetcode.cn/problems/partition-list/)                                                           | [Java](java/src/linkedlist/partitionList/Solution.java)                                    | 中等  |
 | 92   | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)                                                | [Java](java/src/linkedlist/reverseLinkedList2/Solution.java)                               | 困难  |
+| 104  | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)                                         | [Java](java/src/binarytree/maximumDepthOfBinaryTree/Solution.java)                         | 	简单 |
+| 144  | [二叉树的最大深度](https://leetcode.cn/problems/binary-tree-preorder-traversal/)                                       | [Java](java/src/binarytree/binaryTreePreorderTraversal/Solution.java)                      | 	简单 |
 | 146  | [LRU 缓存](https://leetcode.cn/problems/lru-cache/)                                                              | [Java](java/src/linkedlist/lruCache/LRUCache.java)                                         | 	中等 |
 | 206  | [反转链表](https://leetcode.cn/problems/reverse-linked-list/)                                                      | [Java](java/src/linkedlist/reverseLinkedList/Solution.java)                                | 中等  |
 | 239  | [滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)                                                | [Java](java/src/array/slidingWindowMaximum/Solution.java)                                  | 困难  |
@@ -26,6 +28,7 @@ LeetCode
 | 303  | [区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/)                                       | [Java](java/src/array/rangeSumQueryImmutable/NumArray.java)                                | 简单  |
 | 380  | [O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)                                | [Java](java/src/array/insertDeleteGetrandomO1/RandomizedSet.java)                          | 中等  |
 | 438  | [找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)                                   | [Java](java/src/slidingwindow/findAllAnagramsInAString/Solution.java)                      | 中等  |
+| 543  | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)                                                | [Java](java/src/binarytree/diameterOfBinaryTree/Solution.java)                             | 	简单 |
 | 567  | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/)                                                  | [Java](java/src/slidingwindow/permutationInString/Solution.java)                           | 中等  |
 | 704  | [二分查找](https://leetcode.cn/problems/binary-search/)                                                            | [Java](java/src/binarysearch/binarySearch/Solution.java)                                   | 简单  |
 | 1094 | [拼车](https://leetcode.cn/problems/car-pooling/)                                                                | [Java](java/src/array/carPooling/Solution.java)                                            | 中等  |

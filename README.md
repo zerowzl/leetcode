@@ -18,6 +18,7 @@ LeetCode
 | 83   | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)                               | [Java](java/src/linkedlist/removeDuplicatesFromSortedList/Solution.java)                   | 简单  |
 | 86   | [分隔链表](https://leetcode.cn/problems/partition-list/)                                                           | [Java](java/src/linkedlist/partitionList/Solution.java)                                    | 中等  |
 | 92   | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)                                                | [Java](java/src/linkedlist/reverseLinkedList2/Solution.java)                               | 困难  |
+| 98   | [验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)                                           | [Java](java/src/bst/validateBinarySearchTree/Solution.java)                                | 中等  |
 | 104  | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)                                         | [Java](java/src/binarytree/maximumDepthOfBinaryTree/Solution.java)                         | 	简单 |
 | 114  | [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)                                   | [Java](java/src/binarytree/flattenBinaryTreeToLinkedList/Solution.java)                    | 	中等 |
 | 116  | [填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)                  | [Java](java/src/binarytree/populatingNextRightPointersInEachNode/Solution.java)            | 	中等 |
@@ -33,6 +34,7 @@ LeetCode
 | 438  | [找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)                                   | [Java](java/src/slidingwindow/findAllAnagramsInAString/Solution.java)                      | 中等  |
 | 543  | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)                                                | [Java](java/src/binarytree/diameterOfBinaryTree/Solution.java)                             | 	简单 |
 | 567  | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/)                                                  | [Java](java/src/slidingwindow/permutationInString/Solution.java)                           | 中等  |
+| 700  | [二叉搜索树中的搜索](https://leetcode.cn/problems/search-in-a-binary-search-tree/)                                      | [Java](java/src/bst/searchInABinarySearchTree/Solution.java)                               | 简单  |
 | 704  | [二分查找](https://leetcode.cn/problems/binary-search/)                                                            | [Java](java/src/binarysearch/binarySearch/Solution.java)                                   | 简单  |
 | 1094 | [拼车](https://leetcode.cn/problems/car-pooling/)                                                                | [Java](java/src/array/carPooling/Solution.java)                                            | 中等  |
 | 1109 | [航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)                                              | [Java](java/src/array/corporateFlightBookings/Solution.java)                               | 中等  |

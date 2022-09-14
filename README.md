@@ -25,6 +25,7 @@ LeetCode
 | 104  | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)                                         | [Java](java/src/binarytree/maximumDepthOfBinaryTree/Solution.java)                         | 简单  |
 | 111  | [二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/)                                         | [Java](java/src/binarytree/minimumDepthOfBinaryTree/Solution.java)                         | 简单  |
 | 112  | [路径总和](https://leetcode.cn/problems/path-sum/)                                                                 | [Java](java/src/binarytree/pathSum/Solution.java)                                          | 简单  |
+| 113  | [路径总和 II](https://leetcode.cn/problems/path-sum-ii/)                                                           | [Java](java/src/binarytree/pathSum2/Solution.java)                                         | 中等  |
 | 114  | [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)                                   | [Java](java/src/binarytree/flattenBinaryTreeToLinkedList/Solution.java)                    | 中等  |
 | 116  | [填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)                  | [Java](java/src/binarytree/populatingNextRightPointersInEachNode/Solution.java)            | 中等  |
 | 144  | [二叉树的最大深度](https://leetcode.cn/problems/binary-tree-preorder-traversal/)                                       | [Java](java/src/binarytree/binaryTreePreorderTraversal/Solution.java)                      | 简单  |

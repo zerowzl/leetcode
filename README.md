@@ -23,6 +23,7 @@ LeetCode
 | 100  | [相同的树](https://leetcode.cn/problems/same-tree/submissions/)                                                    | [Java](java/src/binarytree/sameTree/Solution.java)                                         | 简单  |
 | 101  | [对称二叉树](https://leetcode.cn/problems/symmetric-tree/submissions/)                                              | [Java](java/src/binarytree/symmetricTree/Solution.java)                                    | 简单  |
 | 104  | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)                                         | [Java](java/src/binarytree/maximumDepthOfBinaryTree/Solution.java)                         | 简单  |
+| 110  | [平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/)                                                    | [Java](java/src/binarytree/balancedBinaryTree/Solution.java)                               | 简单  |
 | 111  | [二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/)                                         | [Java](java/src/binarytree/minimumDepthOfBinaryTree/Solution.java)                         | 简单  |
 | 112  | [路径总和](https://leetcode.cn/problems/path-sum/)                                                                 | [Java](java/src/binarytree/pathSum/Solution.java)                                          | 简单  |
 | 113  | [路径总和 II](https://leetcode.cn/problems/path-sum-ii/)                                                           | [Java](java/src/binarytree/pathSum2/Solution.java)                                         | 中等  |

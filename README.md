@@ -2,7 +2,7 @@ LeetCode
 ========
 
 | #    | 题名                                                                                                             | 题解                                                                                         | 难度  | 标签     |
-|------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----|--------|
+| ---- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --- | ------ |
 | 1    | [两数之和](https://leetcode.cn/problems/two-sum/)                                                                  | [Java](java/src/array/twoSum/Solution.java)                                                | 简单  | 数组     |
 | 3    | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)                     | [Java](java/src/slidingwindow/longestSubstringWithoutRepeatingCharacters/Solution.java)    | 中等  | 字符串    |
 | 21   | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)                                               | [Java](java/src/linkedlist/mergeTwoSortedLists/Solution.java)                              | 简单  | 链表     |
@@ -29,6 +29,8 @@ LeetCode
 | 113  | [路径总和 II](https://leetcode.cn/problems/path-sum-ii/)                                                           | [Java](java/src/binarytree/pathSum2/Solution.java)                                         | 中等  | 树      |
 | 114  | [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)                                   | [Java](java/src/binarytree/flattenBinaryTreeToLinkedList/Solution.java)                    | 中等  | 树      |
 | 116  | [填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)                  | [Java](java/src/binarytree/populatingNextRightPointersInEachNode/Solution.java)            | 中等  | 树      |
+| 141  | [环形链表](https://leetcode.cn/problems/linked-list-cycle/)                                                        | [Java](java/src/linkedlist/linkedListCycle/Solution.java)                                  | 简单  | 链表     |
+| 142  | [环形链表2](https://leetcode.cn/problems/linked-list-cycle-ii/)                                                    | [Java](java/src/linkedlist/linkedListCycle2/Solution.java)                                 | 中等  | 链表     |
 | 144  | [二叉树的最大深度](https://leetcode.cn/problems/binary-tree-preorder-traversal/)                                       | [Java](java/src/binarytree/binaryTreePreorderTraversal/Solution.java)                      | 简单  | 二叉树    |
 | 146  | [LRU 缓存](https://leetcode.cn/problems/lru-cache/)                                                              | [Java](java/src/linkedlist/lruCache/LRUCache.java)                                         | 中等  | 设计     |
 | 206  | [反转链表](https://leetcode.cn/problems/reverse-linked-list/)                                                      | [Java](java/src/linkedlist/reverseLinkedList/Solution.java)                                | 中等  | 链表     |
@@ -44,5 +46,6 @@ LeetCode
 | 567  | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/)                                                  | [Java](java/src/slidingwindow/permutationInString/Solution.java)                           | 中等  | 字符串    |
 | 700  | [二叉搜索树中的搜索](https://leetcode.cn/problems/search-in-a-binary-search-tree/)                                      | [Java](java/src/bst/searchInABinarySearchTree/Solution.java)                               | 简单  | 二叉树    |
 | 704  | [二分查找](https://leetcode.cn/problems/binary-search/)                                                            | [Java](java/src/binarysearch/binarySearch/Solution.java)                                   | 简单  | 二分查找   |
+| 876  | [链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)                                             | [Java](java/src/linkedlist/middleOfTheLinkedList/Solution.java)                            | 简单  | 链表     |
 | 1094 | [拼车](https://leetcode.cn/problems/car-pooling/)                                                                | [Java](java/src/array/carPooling/Solution.java)                                            | 中等  | 数组、前缀和 |
 | 1109 | [航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)                                              | [Java](java/src/array/corporateFlightBookings/Solution.java)                               | 中等  | 数组     |

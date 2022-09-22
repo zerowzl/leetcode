@@ -2,9 +2,10 @@ LeetCode
 ========
 
 | #    | 题名                                                                                                             | 题解                                                                                         | 难度  | 标签     |
-| ---- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --- | ------ |
+|------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----|--------|
 | 1    | [两数之和](https://leetcode.cn/problems/two-sum/)                                                                  | [Java](java/src/array/twoSum/Solution.java)                                                | 简单  | 数组     |
 | 3    | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)                     | [Java](java/src/slidingwindow/longestSubstringWithoutRepeatingCharacters/Solution.java)    | 中等  | 字符串    |
+| 5    | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)                                          | [Java](java/src/array/longestPalindromicSubstring/Solution.java)                           | 中等  | 字符串    |
 | 21   | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)                                               | [Java](java/src/linkedlist/mergeTwoSortedLists/Solution.java)                              | 简单  | 链表     |
 | 19   | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)                               | [Java](java/src/linkedlist/removeNthNodeFromEndOfList/Solution.java)                       | 中等  | 链表     |
 | 23   | [合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)                                                 | [Java](java/src/linkedlist/mergeKSortedLists/Solution.java)                                | 困难  | 链表     |
@@ -40,6 +41,7 @@ LeetCode
 | 278  | [第一个错误的版本](https://leetcode.cn/problems/first-bad-version/)                                                    | [Java](java/src/binarysearch/firstBadVersion/FirstBadVersion.java)                         | 简单  | 二分查找   |
 | 283  | [移动零](https://leetcode.cn/problems/move-zeroes/)                                                               | [Java](java/src/array/moveZeroes/Solution.java)                                            | 简单  | 数组     |
 | 303  | [区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/)                                       | [Java](java/src/array/rangeSumQueryImmutable/NumArray.java)                                | 简单  | 数组     |
+| 344  | [反转字符串](https://leetcode.cn/problems/reverse-string/)                                                          | [Java](java/src/array/reverseString/Solution.java)                                         | 简单  | 数组     |
 | 380  | [O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)                                | [Java](java/src/array/insertDeleteGetrandomO1/RandomizedSet.java)                          | 中等  | 设计     |
 | 438  | [找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)                                   | [Java](java/src/slidingwindow/findAllAnagramsInAString/Solution.java)                      | 中等  | 字符串    |
 | 543  | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)                                                | [Java](java/src/binarytree/diameterOfBinaryTree/Solution.java)                             | 简单  | 二叉树    |

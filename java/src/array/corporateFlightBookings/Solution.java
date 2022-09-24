@@ -6,7 +6,13 @@ package array.corporateFlightBookings;
 class Solution {
 
     /**
-     * 差分数组
+     * 差分数组，构建一个差分数组，diff 。内容如下：
+     * length = nums.length
+     * diff[i] = nums[i] - nums[i-1] ，也就是差分的由来
+     * 还原操作：res[i] = res[i-1] + diff[i]
+     * 更新操作：如要更新 nums[i..j] 全部加2，则只需要对 diff[i] += 2，diff[j+1] -=2。
+     * 原理是：还原的时候是通过前一个值累加下去的，也就是说修改了前一个值，
+     * 比如 +2，后面的计算出的结果都是在原来基础上+2的。然后在区间结束后的开始元素进行还原。
      */
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] nums = new int[n];

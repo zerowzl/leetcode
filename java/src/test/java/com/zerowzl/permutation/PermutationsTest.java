@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 全排列 单元测试.
  *
- * @author wangzhiliang
+ * @author davewang
  */
 public class PermutationsTest extends TestCase {
 

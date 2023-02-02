@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * 下一个排列 单元测试.
  *
- * @author wangzhiliang
+ * @author davewang
  */
 public class NextPermutationTest extends TestCase {
 

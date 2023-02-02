@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 全排列.
  *
- * @author wangzhiliang
+ * @author davewang
  */
 public class Permutations {
 

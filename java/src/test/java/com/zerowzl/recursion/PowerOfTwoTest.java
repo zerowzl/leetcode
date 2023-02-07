@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Assert;
 
 /**
- * .
+ * 2 的次幂 单元测试.
  *
  * @author davewang
  */
